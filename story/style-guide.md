@@ -120,6 +120,12 @@ Do not name emotions when they can be shown through action, sensation, or though
 ### Repetitive openings
 No two consecutive chapters should open the same way. Vary: sensory detail, action, interior thought, environmental description, disorientation. Track openings to prevent patterns.
 
+### Em-dashes
+Do not use em-dashes (-- or —) in prose. They are heavily overused in AI-generated text and read as artificial. Replace with commas, periods, colons, semicolons, or restructured sentences. Use commas for parenthetical asides, periods or semicolons for dramatic breaks, colons for elaboration. If a sentence needs an em-dash to work, rewrite the sentence.
+
+### Latin/scientific names in prose
+Do not use Latin species names (Mycena chlorophos, Omphalotus olearius, Monotropa uniflora, etc.) in the readable prose. Use common names or vivid descriptions instead. Readers should never need specialized knowledge to follow the text. Ada may "know" the species, but the prose renders what she sees, not her taxonomy. Latin names may appear in Continuity Notes for internal reference.
+
 ### Cinematic filler
 No "she took a deep breath and squared her shoulders." No "time seemed to slow down." No "her heart pounded in her chest." Find fresher, more specific physical correlates for emotion.
 

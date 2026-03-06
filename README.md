@@ -18,7 +18,7 @@ That's it. You don't need to plan the story yourself. The agents do the planning
 
 ## How It Works
 
-The system has 10 agents that run in sequence:
+The system has 11 agents that run in sequence:
 
 | Step | Agent | What it does |
 |------|-------|-------------|
@@ -32,6 +32,7 @@ The system has 10 agents that run in sequence:
 | 8 | **Continuity Editor** | Checks for plot holes, timeline issues, contradictions |
 | 9 | **Literary Critic** | Evaluates prose quality, pacing, emotional impact |
 | 10 | **Revision Writer** | Surgically revises chapters based on review feedback |
+| 11 | **Humanizer** | Final pass for natural, human-readable prose. Removes AI writing tells, fixes robotic phrasing, ensures accessibility |
 
 All story data lives in markdown files under `story/`. The agents read and write these files as they work. Everything is transparent and editable.
 
@@ -337,6 +338,9 @@ After drafting, use:
 - continuity-editor to create story/reviews/continuity-ch01.md
 - literary-critic to create story/reviews/literary-ch01.md
 - revision-writer to revise story/chapters/ch01.md based on both reviews
+- humanizer to do a final pass on the prose (see story/humanizer-checklist.md):
+  remove AI writing tells, fix robotic phrasing, ensure readability and
+  natural sentence flow
 
 Then summarize:
 - what was revised and why
@@ -354,8 +358,8 @@ Once you're confident in the quality and want to move faster:
 
 ```
 Continue writing. Draft the next 2 chapters following the same process:
-write, continuity review, literary review. Pause after both are done.
-Update manuscript-status.md.
+write, continuity review, literary review, revision, humanizer pass.
+Pause after both are done. Update manuscript-status.md.
 ```
 
 ### The Final Compile Prompt
@@ -475,6 +479,7 @@ BookWriter/
 │   ├── chapter-outline.md       # Chapter-by-chapter plan
 │   ├── running-state.md         # Cumulative state tracker
 │   ├── constraints.md           # Hard rules
+│   ├── humanizer-checklist.md   # Final-pass agent checklist
 │   ├── user-feedback.md         # YOUR STEERING — add notes here
 │   ├── manuscript-status.md     # Progress tracker
 │   ├── chapter-briefs/          # Detailed brief per chapter
