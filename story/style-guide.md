@@ -80,7 +80,7 @@ Exception: during the most intense psychedelic moments, present tense may be use
 Each scene should have a single dominant emotional movement. Enter late, leave early. Do not narrate transitions unless the journey between locations carries emotional weight (which, in this forest, it often will). Let silence and stillness do work. Not every moment needs action.
 
 ### Chapter-level
-Each chapter centers on one major encounter or transformation. The structure within a chapter follows a rough pattern: approach (building tension), encounter (confrontation), and aftermath (processing, shift). But this pattern should not feel mechanical. Some chapters may begin in the aftermath of the previous chapter's encounter. Some may end mid-confrontation.
+Each chapter centers on one major encounter or transformation. The structure within a chapter follows a rough pattern: approach (building tension), encounter (confrontation), and aftermath (processing, shift). But this pattern should not feel mechanical. Some chapters may begin in the aftermath of the previous chapter's encounter. Some may end mid-confrontation. Chapters have room for fully developed scenes: extended sensory immersion, longer animal dialogue sequences, deeper interior processing, and environmental transitions that carry emotional weight. The additional space should serve depth, not repetition.
 
 ### Overall
 The book moves through three phases:

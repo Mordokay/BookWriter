@@ -43,7 +43,7 @@
 - **Symbols are never decoded in the text.** Ada may sense meaning, but she never articulates "the wolf represents my anger" or equivalent. The reader is trusted.
 - **The forest's responsiveness to Ada's state is shown, never stated.** The narration does not say "the forest reflected her fear." It shows the trees pressing closer, the path narrowing, the light dimming.
 - **Psychedelic perception shifts are used sparingly.** No more than two to three passages per chapter where syntax, imagery, or tense break from baseline. These moments must be surrounded by grounded prose to maintain contrast.
-- **The word count per chapter should target 3,000 to 5,000 words.** Enough for immersion, not so much that pacing suffers.
+- **The word count per chapter should target 5,000 to 8,000 words.** The canon is rich enough to support deeper scenes, fuller sensory immersion, more developed animal dialogue, and longer encounter sequences. Transitional chapters (e.g., "Crossing," "Clearing") may sit at the lower end; major encounter chapters (e.g., "Skin," "Charge," "Dissolve") should use the full range. Every added word must earn its place -- depth, not padding.
 
 ## Optional constraints
 

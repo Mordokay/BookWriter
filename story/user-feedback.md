@@ -1,12 +1,5 @@
 # User Feedback
 
-Add steering notes here as the project evolves.
+## Active steering notes
 
-Examples:
-
-- Make the atmosphere darker.
-- Reduce exposition.
-- Make the protagonist older and more emotionally guarded.
-- Increase the role of biotechnology in the setting.
-- Keep romance subtle.
-- Make the ending bittersweet, not tragic.
+- **Increase chapter word count by 60-70%.** New target: 5,000-8,000 words per chapter (up from 3,000-5,000). The canon is deep enough to support longer chapters with richer descriptions, more developed animal dialogue, and fuller encounter sequences while maintaining quality and consistency. Use the added space for depth, not padding.
