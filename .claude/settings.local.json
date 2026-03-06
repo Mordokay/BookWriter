@@ -5,7 +5,18 @@
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(wc:*)",
-      "Bash(grep -v '^$')"
+      "Bash(grep -v '^$')",
+      "Read(./**)",
+      "Edit(./**)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(rg *)",
+      "Bash(cat *)",
+      "Bash/npm run */",
+      "Bash(xcodebuild *)",
+      "Bash(swift test *)"
     ]
   }
 }
