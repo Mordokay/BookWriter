@@ -131,9 +131,9 @@ When reviewing a chapter:
 
 ## Default target for the proof of concept
 
-- format: novella
-- 6 to 10 chapters
-- 20 to 35 pages equivalent
+- format: book
+- 12 to 14 chapters
+- approximately 80 pages equivalent
 - 1 main protagonist
 - 1 central conflict
 - 1 contained but rich world

@@ -6,7 +6,7 @@ Create a coherent and compelling book-length narrative through a multi-agent wor
 
 ## Proof of concept goal
 
-Produce a readable and satisfying novella before attempting a full 100-page book.
+Produce a readable and satisfying book of approximately 80 pages.
 
 ## Quality goals
 
@@ -25,8 +25,8 @@ Produce a readable and satisfying novella before attempting a full 100-page book
 
 ## Default target
 
-- 6 to 8 chapters
-- 25 to 40 pages equivalent
+- 12 to 14 chapters
+- approximately 80 pages equivalent
 - one contained story arc
 - single protagonist (Ada), no secondary human characters
 - the forest and its animals as the only "cast"
@@ -57,4 +57,4 @@ Specifically:
 - **The genre sits in a gap.** This is not literary fiction, not standard fantasy, not horror, not spiritual self-help. It occupies the space where psychological realism meets mythic symbolism, and it stays there without apologizing.
 - **The resolution is integration, not victory.** Ada does not defeat anything. She accepts. This is structurally unusual and emotionally distinctive.
 - **The story is sensory and embodied.** It lives in mud, spores, moonlight, breath, and heartbeat. It is a book you feel in your body, not just your mind.
-- **The frog.** A spirit guide that does not speak, does not explain, and must be followed by instinct. The frog is funny, strange, patient, and sacred all at once.
+- **The frog.** A wise spirit animal that teaches through presence, gesture, and demonstration. The frog is funny, strange, patient, and sacred all at once — a counselor and guide who leads Ada toward her own revelations without words.

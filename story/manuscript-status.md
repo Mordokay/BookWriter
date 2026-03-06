@@ -2,13 +2,13 @@
 
 ## Current phase
 
-setup
+planning
 
 ## Progress
 
-- [ ] brief completed
-- [ ] theme created
-- [ ] style guide created
+- [x] brief completed
+- [x] theme created
+- [x] style guide created
 - [ ] world created
 - [ ] characters created
 - [ ] plot created

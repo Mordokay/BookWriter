@@ -62,10 +62,10 @@ Each scene should have a single dominant emotional movement. Enter late, leave e
 Each chapter centers on one major encounter or transformation. The structure within a chapter follows a rough pattern: approach (building tension), encounter (confrontation), and aftermath (processing, shift). But this pattern should not feel mechanical. Some chapters may begin in the aftermath of the previous chapter's encounter. Some may end mid-confrontation.
 
 ### Overall
-The novella moves through three phases:
-1. **Descent** (chapters 1-2): Entry, disorientation, first encounters. Pacing is uncertain, exploratory.
-2. **Confrontation** (chapters 3-5): Escalating encounters. Pacing tightens. Emotional intensity increases with each chapter.
-3. **Integration** (chapters 6-8): Surrender, revelation, emergence. Pacing opens. Scenes become longer and slower. Silence grows.
+The book moves through three phases:
+1. **Descent** (chapters 1-3): Entry, disorientation, first encounters. Pacing is uncertain, exploratory.
+2. **Confrontation** (chapters 4-10): Escalating encounters. Pacing tightens. Emotional intensity increases with each chapter. Some chapters may feature multiple animals simultaneously or carry an encounter across chapter boundaries.
+3. **Integration** (chapters 11-14): Surrender, revelation, emergence. Pacing opens. Scenes become longer and slower. Silence grows.
 
 ## Chapter Ending Style
 
