@@ -101,7 +101,7 @@ The story must make these internal stakes feel as urgent as any external threat.
 - **Frog song:** call and response, wisdom offered through presence and demonstration, guidance that speaks to instinct and deeper knowing
 
 ### Animal symbolism
-- **Frog (wise guide and teacher):** renewal, adaptability, passage between worlds (water/land), patience, wisdom, counsel. The frog teaches through action, gesture, and demonstration. It leads Ada toward revelations she could not reach alone. It is counselor, teacher, and sacred companion.
+- **Frog (wise guide and teacher):** renewal, adaptability, passage between worlds (water/land), patience, wisdom, counsel. A large, old Western toad — warty, heavy, unhurried — whose authority comes from settled presence rather than grandeur. It teaches through action, gesture, and demonstration. It leads Ada toward revelations she could not reach alone. It is counselor, teacher, and sacred companion.
 - **Wolf:** fear, rage, survival instinct turned corrosive
 - **Stag:** pride, avoidance, the mask of composure, false control
 - **Snake:** shame, the thing that coils in the gut, but also transformation and shedding
