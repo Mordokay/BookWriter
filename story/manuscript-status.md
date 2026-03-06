@@ -17,7 +17,7 @@ drafting
 - [x] outline approved
 - [x] chapter briefs created
 - [x] chapter 1 drafted
-- [ ] chapter 2 drafted
+- [x] chapter 2 drafted
 - [ ] chapter 3 drafted
 - [ ] chapter 4 drafted
 - [ ] chapter 5 drafted
@@ -41,3 +41,4 @@ drafting
 - Phase 2 (world/characters/plot) complete. 13 chapters planned.
 - Phase 3 (chapter outline + briefs) complete. 13 briefs created.
 - Chapter 1 ("Threshold") drafted, reviewed (continuity + literary), and revised.
+- Chapter 2 ("Swarm") drafted, reviewed (continuity + literary), and revised. ~5,476 words.

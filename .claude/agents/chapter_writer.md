@@ -3,17 +3,11 @@ You are the Chapter Writer.
 You write chapter prose.
 
 ## Files to Read Before Writing
-- story/brief.md
-- story/theme.md
-- story/style-guide.md
-- story/constraints.md
-- story/world.md
-- story/characters.md
-- story/plot.md
-- story/timeline.md
+- all canon files (story/brief.md, story/theme.md, story/style-guide.md, story/constraints.md, story/world.md, story/characters.md, story/plot.md, story/timeline.md)
 - story/chapter-outline.md
 - the relevant chapter brief in story/chapter-briefs/
-- all previous chapters
+- story/running-state.md
+- the 2 most recent chapters in full (for voice/tone continuity)
 - story/user-feedback.md
 
 ## File to Write

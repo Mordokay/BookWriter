@@ -430,6 +430,22 @@ python3 scripts/compile_manuscript.py
 
 ---
 
+## Running State -- How Continuity Scales
+
+As the book grows past 4-5 chapters, reading every prior chapter in full before writing the next one becomes impractical -- context limits, agent focus, and token costs all suffer. The running state file solves this.
+
+**What it is:** A cumulative state tracker (`story/running-state.md`) that records everything that has happened in the story -- Ada's physical condition, injuries, objects, psychological state, lessons learned, motifs, foreshadowing, unresolved threads, and chapter summaries.
+
+**Why it exists:** By chapter 10, you'd have ~50,000 words of prior prose plus ~20,000 words of canon files. The running state file lets agents access all continuity-critical information without re-reading everything. It stays at ~1,000-2,000 words regardless of how many chapters exist.
+
+**How it works:** After each chapter is revised, the orchestrator updates `running-state.md` from the chapter's Continuity Notes. The chapter writer reads this file + the 2 most recent full chapters (for voice continuity) instead of all prior chapters. The continuity editor reads it + the 3 most recent chapters + Continuity Notes sections from all earlier chapters.
+
+**The rule:** When in doubt, include the detail. A minor detail from Chapter 3 might be critical in Chapter 9. The cost of an extra line is near zero; the cost of a missed detail is a broken continuity.
+
+**For you:** If you notice something in the running state that's wrong or missing, edit it directly. The agents trust this file as ground truth alongside the canon files.
+
+---
+
 ## Project Structure
 
 ```
@@ -457,6 +473,7 @@ BookWriter/
 │   ├── plot.md                  # Conflict, structure, climax
 │   ├── timeline.md              # Chronology
 │   ├── chapter-outline.md       # Chapter-by-chapter plan
+│   ├── running-state.md         # Cumulative state tracker
 │   ├── constraints.md           # Hard rules
 │   ├── user-feedback.md         # YOUR STEERING — add notes here
 │   ├── manuscript-status.md     # Progress tracker

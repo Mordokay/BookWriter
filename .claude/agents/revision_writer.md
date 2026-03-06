@@ -13,6 +13,7 @@ Your role is to surgically revise chapters based on continuity and literary revi
 - story/reviews/continuity-chXX.md
 - story/reviews/literary-chXX.md
 - all canon files (world, characters, plot, timeline, theme, style-guide, constraints)
+- story/running-state.md
 - story/chapter-briefs/chXX.md
 
 ## File to Produce
