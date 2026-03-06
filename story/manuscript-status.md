@@ -20,7 +20,7 @@ drafting
 - [x] chapter 2 drafted
 - [x] chapter 3 drafted
 - [x] chapter 4 drafted
-- [ ] chapter 5 drafted
+- [x] chapter 5 drafted
 - [ ] chapter 6 drafted
 - [ ] chapter 7 drafted
 - [ ] chapter 8 drafted
@@ -44,3 +44,4 @@ drafting
 - Chapter 2 ("Swarm") drafted, reviewed (continuity + literary), and revised. ~5,476 words.
 - Chapter 3 ("Teeth") drafted, reviewed (continuity + literary), and revised. ~5,978 words.
 - Chapter 4 ("Crossing") drafted, reviewed (continuity + literary), and revised. ~5,500 words.
+- Chapter 5 ("Antlers") drafted, reviewed (continuity + literary), revised, and humanized. ~4,893 words.
