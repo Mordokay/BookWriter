@@ -1,6 +1,6 @@
 # BookWriter
 
-A multi-agent system that writes a novella for you. You provide a short creative brief, then guide the process with small, specific notes. Nine specialized AI agents handle everything else — theme, world, characters, plot, prose, and quality review.
+A multi-agent system that writes a novella for you. You provide a short creative brief, then guide the process with small, specific notes. Ten specialized AI agents handle everything else — theme, world, characters, plot, prose, and quality review.
 
 ---
 
@@ -18,7 +18,7 @@ That's it. You don't need to plan the story yourself. The agents do the planning
 
 ## How It Works
 
-The system has 9 agents that run in sequence:
+The system has 10 agents that run in sequence:
 
 | Step | Agent | What it does |
 |------|-------|-------------|
@@ -31,6 +31,7 @@ The system has 9 agents that run in sequence:
 | 7 | **Chapter Writer** | Drafts prose for each chapter |
 | 8 | **Continuity Editor** | Checks for plot holes, timeline issues, contradictions |
 | 9 | **Literary Critic** | Evaluates prose quality, pacing, emotional impact |
+| 10 | **Revision Writer** | Surgically revises chapters based on review feedback |
 
 All story data lives in markdown files under `story/`. The agents read and write these files as they work. Everything is transparent and editable.
 
@@ -335,10 +336,11 @@ to draft:
 After drafting, use:
 - continuity-editor to create story/reviews/continuity-ch01.md
 - literary-critic to create story/reviews/literary-ch01.md
+- revision-writer to revise story/chapters/ch01.md based on both reviews
 
 Then summarize:
+- what was revised and why
 - whether chapter 1 is safe to proceed with
-- top revision suggestions
 - any canon that should be updated
 
 Do not write chapter 2 yet unless I ask.
@@ -361,6 +363,7 @@ Update manuscript-status.md.
 ```
 Act as the orchestrator. Run a final continuity pass across all chapters.
 Then run a final literary pass. Summarize all issues found.
+Use the revision-writer to address critical issues in each chapter.
 After revisions are complete, compile the manuscript to output/manuscript.md.
 ```
 
@@ -442,7 +445,8 @@ BookWriter/
 │   ├── chapter_planner.md
 │   ├── chapter_writer.md
 │   ├── continuity_editor.md
-│   └── literary_critic.md
+│   ├── literary_critic.md
+│   └── revision_writer.md
 ├── story/
 │   ├── brief.md                 # YOUR INPUT — fill this out
 │   ├── goals.md                 # Project scope
