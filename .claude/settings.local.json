@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:chatgpt.com)",
       "Bash(python:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(wc:*)"
     ]
   }
 }

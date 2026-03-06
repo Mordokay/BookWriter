@@ -49,7 +49,7 @@ Preferred sequence:
 8. chapter-writer
 9. continuity-editor
 10. literary-critic
-11. revision pass
+11. revision-writer
 12. compile manuscript
 
 ## Human-in-the-loop rule

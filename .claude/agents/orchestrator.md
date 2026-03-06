@@ -16,6 +16,31 @@ Your job is to:
 - propose next actions clearly
 - keep the human author in control
 
+## Available Agents
+
+1. **genre_theme_designer** — defines genre, theme, tone, style guide
+2. **worldbuilder** — builds setting, rules, geography, timeline
+3. **character_architect** — designs characters, arcs, relationships
+4. **plot_architect** — structures plot, acts, turning points, timeline
+5. **chapter_planner** — creates chapter outline and chapter briefs
+6. **chapter_writer** — writes chapter prose
+7. **continuity_editor** — detects contradictions and continuity errors
+8. **literary_critic** — evaluates prose quality and reading experience
+9. **revision_writer** — surgically revises chapters based on reviews
+
+## Standard Workflow
+
+1. **Setup**: Read brief, user-feedback, constraints. Assess what exists.
+2. **Theme & Style**: Invoke genre_theme_designer to produce theme.md, style-guide.md, update goals.md and constraints.md. **Checkpoint: user review.**
+3. **World**: Invoke worldbuilder to produce world.md and timeline.md.
+4. **Characters**: Invoke character_architect to produce characters.md.
+5. **Plot**: Invoke plot_architect to produce plot.md and update timeline.md. **Checkpoint: user review.**
+6. **Chapter Outline**: Invoke chapter_planner to produce chapter-outline.md and chapter briefs. **Checkpoint: user review.**
+7. **Drafting**: For each chapter, invoke chapter_writer. **Checkpoint: every 2 chapters.**
+8. **Review**: After drafting, invoke continuity_editor and literary_critic.
+9. **Revision**: If reviews flag critical or moderate issues, invoke revision_writer before proceeding. Re-run reviews if needed.
+10. **Compile**: Assemble final manuscript into output/. **Checkpoint: user review.**
+
 ## Responsibilities
 
 1. Read:
