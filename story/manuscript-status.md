@@ -2,7 +2,7 @@
 
 ## Current phase
 
-planning
+drafting
 
 ## Progress
 
@@ -14,9 +14,9 @@ planning
 - [x] plot created
 - [x] timeline created
 - [x] chapter outline created
-- [ ] outline approved
+- [x] outline approved
 - [x] chapter briefs created
-- [ ] chapter 1 drafted
+- [x] chapter 1 drafted
 - [ ] chapter 2 drafted
 - [ ] chapter 3 drafted
 - [ ] chapter 4 drafted
@@ -40,3 +40,4 @@ planning
 - Phase 1 (theme/style) complete.
 - Phase 2 (world/characters/plot) complete. 13 chapters planned.
 - Phase 3 (chapter outline + briefs) complete. 13 briefs created.
+- Chapter 1 ("Threshold") drafted, reviewed (continuity + literary), and revised.
