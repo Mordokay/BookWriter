@@ -31,8 +31,9 @@ Create a compelling, coherent, emotionally satisfying manuscript through a stage
 - Treat `story/constraints.md` as hard constraints.
 - Treat `story/style-guide.md` as the prose and voice contract.
 - Treat `story/world.md`, `story/characters.md`, `story/plot.md`, and `story/timeline.md` as canon.
+- Treat `story/running-state.md` as the cumulative state tracker -- ground truth for everything that has happened in the story so far.
 - Treat `story/chapter-outline.md` as the approved structural plan.
-- Before writing any new chapter, review canon files and earlier chapters.
+- Before writing any new chapter, review canon files, running state, and the most recent chapters.
 - When making a significant story decision, update the relevant canon file.
 
 ## Order of operations
@@ -50,7 +51,9 @@ Preferred sequence:
 9. continuity-editor
 10. literary-critic
 11. revision-writer
-12. compile manuscript
+12. reader-agent (full-manuscript reading-experience review)
+13. humanizer (final pass: readability, AI-tell removal, natural prose) -- see `story/humanizer-checklist.md`
+14. compile manuscript
 
 ## Human-in-the-loop rule
 
@@ -100,11 +103,13 @@ If a contradiction is necessary, flag it and propose a repair.
 - `story/plot.md`: act structure, core conflict, reveals, climax, ending
 - `story/timeline.md`: chronology of important events
 - `story/chapter-outline.md`: chapter-by-chapter map
+- `story/running-state.md`: cumulative state tracker (physical, psychological, environmental, motifs, foreshadowing, threads, summaries)
 - `story/chapter-briefs/`: one brief per chapter
 - `story/chapters/`: prose drafts
 - `story/reviews/`: continuity, critique, revision notes
 - `story/user-feedback.md`: user steering and preferences
 - `story/manuscript-status.md`: progress tracker
+- `story/humanizer-checklist.md`: final-pass agent instructions for natural, human-readable prose
 - `output/`: final compiled manuscript
 
 ## Writing guidelines

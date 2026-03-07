@@ -4,7 +4,24 @@
       "WebFetch(domain:chatgpt.com)",
       "Bash(python:*)",
       "Bash(python3:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(grep *)",
+      "Read(./**)",
+      "Edit(./**)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(ls *)",
+      "Bash(awk *)",
+      "Bash(find *)",
+      "Bash(for *)",
+      "Bash(rg *)",
+      "Bash(cat *)",
+      "Bash/npm run */",
+      "Bash(xcodebuild *)",
+      "Bash(swift test *)",
+      "Bash(sed *)",
+      "Read(//private/tmp/**)",
+      "Bash(grep:*)"
     ]
   }
 }

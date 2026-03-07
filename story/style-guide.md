@@ -19,13 +19,34 @@ Variable and intentional. During disorientation and fear, sentences fragment. Du
 
 ## Dialogue Style
 
-Sparse and naturalistic. Ada is mostly alone, so dialogue is rare. When it occurs:
+Ada is mostly alone, but the forest speaks to her -- through its creatures. Dialogue in this story operates at the boundary between real speech and psychedelic interpretation. The animals speak, but whether Ada is truly hearing language or projecting meaning through psilocybin is permanently unresolved. The prose presents dialogue as dialogue without resolving whether it is "real."
 
-- Ada may speak aloud to herself, the frog, or the forest. These utterances should be brief, raw, and unpolished. She is not performing for an audience.
-- The frog does not speak in human language. Its communication is through presence, gesture, sound, and Ada's interpretation. If the frog "speaks," it should feel ambiguous: did Ada hear words, or did she impose meaning on a croak?
-- The animals do not monologue. If they communicate, it is through body language, sound, or the way the forest shifts around them. Meaning is felt, not stated.
-- No dialogue tags beyond "said" when tags are needed. Prefer action beats over tags. Prefer no tag at all when the speaker is obvious.
-- No witty banter. No quips. No sarcasm. Dialogue is an exposure of interior state, not a social performance.
+### Ada's Speech
+Ada may speak aloud to herself, the animals, the frog, or the forest. These utterances should be brief, raw, and unpolished. She is not performing for an audience. Her spoken words reveal what her controlled interior voice is trying to suppress.
+
+### The Frog's Voice
+The frog speaks in short, patient sentences. Wry, grounded, never preachy. It asks more questions than it answers. Its speech is sideways -- observations, provocations, and questions rather than instructions or explanations. Think a cross between Gandalf's patience and the Cheshire Cat's oblique wisdom. Sample register: "You're still running." "What are you holding?" "Sit down." The frog also communicates through presence, demonstration, and sound -- speech augments the physical teaching, it does not replace it. In early appearances (Ch. 1-2), the frog may not speak at all -- Ada has not gone deep enough into the trip. Speech arrives gradually, becoming more direct as the journey deepens.
+
+### Animal-Demon Voices
+Each animal-demon speaks with a distinct voice tied to the wound it embodies. The dialogue is dreamlike and psychedelically inflected -- simultaneously absurd, wise, cutting, and impossible to dismiss. Think Alice in Wonderland's Cheshire Cat or Caterpillar: ancient, alien, other. Not human conversation in animal costume.
+
+What animals must NOT do in dialogue:
+- Deliver exposition about Ada's backstory
+- Explain their own symbolism ("I am your shame")
+- Lecture, moralize, or philosophize abstractly
+- Sound like humans wearing animal masks -- they should feel alien, ancient, other
+
+What animals SHOULD do in dialogue:
+- Provoke Ada with uncomfortable truths she cannot dismiss
+- Ask questions that cut to the bone
+- Speak in ways specific to their nature and wound
+- Be funny, strange, and unsettling simultaneously
+- Create tension through conversation, not just presence
+
+### Dialogue Presentation
+- Dialogue tags: "said" only. No exotic tags ("whispered," "growled," "intoned") unless the physical act is plot-relevant. Body language and environmental response accompany speech -- the forest reacts when the animals speak.
+- The ambiguity must be preserved: Ada cannot be certain the animals are truly speaking. The psilocybin layer makes this perpetually uncertain. A wolf "speaks" but its jaw does not move in human ways. The words arrive in Ada's mind as the animal watches her. The prose presents the dialogue as real without confirming the mechanism.
+- No witty banter. No quips. No sarcasm. Animal dialogue is an exposure of wound, not a social performance. The humor (where it exists) is dark, strange, and unsettling -- the humor of something that knows you better than you know yourself.
 
 ## Description Density and Philosophy
 
@@ -59,7 +80,7 @@ Exception: during the most intense psychedelic moments, present tense may be use
 Each scene should have a single dominant emotional movement. Enter late, leave early. Do not narrate transitions unless the journey between locations carries emotional weight (which, in this forest, it often will). Let silence and stillness do work. Not every moment needs action.
 
 ### Chapter-level
-Each chapter centers on one major encounter or transformation. The structure within a chapter follows a rough pattern: approach (building tension), encounter (confrontation), and aftermath (processing, shift). But this pattern should not feel mechanical. Some chapters may begin in the aftermath of the previous chapter's encounter. Some may end mid-confrontation.
+Each chapter centers on one major encounter or transformation. The structure within a chapter follows a rough pattern: approach (building tension), encounter (confrontation), and aftermath (processing, shift). But this pattern should not feel mechanical. Some chapters may begin in the aftermath of the previous chapter's encounter. Some may end mid-confrontation. Chapters have room for fully developed scenes: extended sensory immersion, longer animal dialogue sequences, deeper interior processing, and environmental transitions that carry emotional weight. The additional space should serve depth, not repetition.
 
 ### Overall
 The book moves through three phases:
@@ -98,6 +119,12 @@ Do not name emotions when they can be shown through action, sensation, or though
 
 ### Repetitive openings
 No two consecutive chapters should open the same way. Vary: sensory detail, action, interior thought, environmental description, disorientation. Track openings to prevent patterns.
+
+### Em-dashes
+Do not use em-dashes (-- or —) in prose. They are heavily overused in AI-generated text and read as artificial. Replace with commas, periods, colons, semicolons, or restructured sentences. Use commas for parenthetical asides, periods or semicolons for dramatic breaks, colons for elaboration. If a sentence needs an em-dash to work, rewrite the sentence.
+
+### Latin/scientific names in prose
+Do not use Latin species names (Mycena chlorophos, Omphalotus olearius, Monotropa uniflora, etc.) in the readable prose. Use common names or vivid descriptions instead. Readers should never need specialized knowledge to follow the text. Ada may "know" the species, but the prose renders what she sees, not her taxonomy. Latin names may appear in Continuity Notes for internal reference.
 
 ### Cinematic filler
 No "she took a deep breath and squared her shoulders." No "time seemed to slow down." No "her heart pounded in her chest." Find fresher, more specific physical correlates for emotion.

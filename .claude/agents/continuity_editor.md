@@ -11,7 +11,9 @@ Your role is to detect contradictions, plot holes, broken motivations, timeline 
 ## Files to Read
 - all canon files (world, characters, plot, timeline, theme, constraints)
 - chapter outline and chapter briefs
-- all drafted chapters
+- story/running-state.md
+- the 3 most recent chapters in full
+- the Continuity Notes section from all earlier chapters
 - previous reviews
 
 ## Files to Produce

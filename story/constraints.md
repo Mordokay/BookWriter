@@ -19,8 +19,8 @@
 
 - "It was all just a dream" or any variant that dismisses the experience as purely hallucinatory
 - Ada waking up and deciding the trip "taught her a lesson" in neat, articulable terms
-- Any animal speaking in clear human sentences or delivering monologues
-- The frog explaining the journey's meaning in words (the frog CAN teach through action, demonstration, and leading Ada to revelations)
+- Animals delivering exposition about Ada's past or explaining their own symbolic meaning ("I know what happened to you when you were twelve," "I am your shame")
+- The frog explaining the journey's meaning in direct, didactic terms. The frog speaks, but sideways -- through questions, observations, and provocations rather than lectures.
 - Ada "conquering" or "defeating" her inner demons through willpower or combat
 - A mentor figure appearing to explain the rules of the forest
 - A ticking clock or external rescue mission
@@ -38,12 +38,12 @@
 - **No secondary human characters** during the forest journey. Ada is alone with the forest and its inhabitants. If human presence appears, it is memory only, and memory should be fragmentary and sensory, not expository.
 - **No explicit backstory chapters.** Ada's past is revealed through the animal encounters, through flashes of memory triggered by the forest, and through her emotional responses. Never through a dedicated "this is what happened to Ada" passage.
 - **Seven to eight animal-demon encounters total.** Each must be distinct in emotional register, symbolic weight, and the way Ada engages with it. Quality over quantity. Animals are not confined to single chapters. Some chapters may feature multiple animals simultaneously, and an animal encounter may span or echo across chapters. Each animal must still have a primary encounter where it is the dominant presence.
-- **The frog appears at least five times** and serves as a wise spirit animal, counselor, and teacher. It teaches through action, demonstration, and leading Ada to revelations — not through words or withholding. It arrives, offers active guidance and wisdom, and withdraws when its work is done. It is not a constant companion, but its appearances carry weight and purpose.
+- **The frog appears at least five times** and serves as a wise spirit animal, counselor, and teacher. It speaks in short, grounded sentences -- patient, wry, occasionally funny. It teaches through a combination of speech, action, and demonstration. Its speech is never preachy or didactic; it asks more questions than it answers, offers observations rather than instructions. It arrives, offers active guidance and wisdom, and withdraws when its work is done. It is not a constant companion, but its appearances carry weight and purpose.
 - **No scene exists solely for atmosphere.** Every scene must contain change: a shift in Ada's understanding, emotional state, or relationship to the forest.
 - **Symbols are never decoded in the text.** Ada may sense meaning, but she never articulates "the wolf represents my anger" or equivalent. The reader is trusted.
 - **The forest's responsiveness to Ada's state is shown, never stated.** The narration does not say "the forest reflected her fear." It shows the trees pressing closer, the path narrowing, the light dimming.
 - **Psychedelic perception shifts are used sparingly.** No more than two to three passages per chapter where syntax, imagery, or tense break from baseline. These moments must be surrounded by grounded prose to maintain contrast.
-- **The word count per chapter should target 3,000 to 5,000 words.** Enough for immersion, not so much that pacing suffers.
+- **The word count per chapter should target 5,000 to 8,000 words.** The canon is rich enough to support deeper scenes, fuller sensory immersion, more developed animal dialogue, and longer encounter sequences. Transitional chapters (e.g., "Crossing," "Clearing") may sit at the lower end; major encounter chapters (e.g., "Skin," "Charge," "Dissolve") should use the full range. Every added word must earn its place -- depth, not padding.
 
 ## Optional constraints
 

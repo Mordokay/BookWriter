@@ -2,7 +2,7 @@
 
 ## Current phase
 
-planning
+compilation
 
 ## Progress
 
@@ -14,24 +14,25 @@ planning
 - [x] plot created
 - [x] timeline created
 - [x] chapter outline created
-- [ ] outline approved
+- [x] outline approved
 - [x] chapter briefs created
-- [ ] chapter 1 drafted
-- [ ] chapter 2 drafted
-- [ ] chapter 3 drafted
-- [ ] chapter 4 drafted
-- [ ] chapter 5 drafted
-- [ ] chapter 6 drafted
-- [ ] chapter 7 drafted
-- [ ] chapter 8 drafted
-- [ ] chapter 9 drafted
-- [ ] chapter 10 drafted
-- [ ] chapter 11 drafted
-- [ ] chapter 12 drafted
-- [ ] chapter 13 drafted
-- [ ] continuity pass completed
-- [ ] literary pass completed
-- [ ] revisions completed
+- [x] chapter 1 drafted
+- [x] chapter 2 drafted
+- [x] chapter 3 drafted
+- [x] chapter 4 drafted
+- [x] chapter 5 drafted
+- [x] chapter 6 drafted
+- [x] chapter 7 drafted
+- [x] chapter 8 drafted
+- [x] chapter 9 drafted
+- [x] chapter 10 drafted
+- [x] chapter 11 drafted
+- [x] chapter 12 drafted
+- [x] chapter 13 drafted
+- [x] continuity pass completed
+- [x] literary pass completed
+- [x] reader review completed
+- [x] revisions completed
 - [ ] manuscript compiled
 
 ## Notes
@@ -40,3 +41,20 @@ planning
 - Phase 1 (theme/style) complete.
 - Phase 2 (world/characters/plot) complete. 13 chapters planned.
 - Phase 3 (chapter outline + briefs) complete. 13 briefs created.
+- Chapter 1 ("Threshold") drafted, reviewed (continuity + literary), and revised.
+- Chapter 2 ("Swarm") drafted, reviewed (continuity + literary), and revised. ~5,476 words.
+- Chapter 3 ("Teeth") drafted, reviewed (continuity + literary), and revised. ~5,978 words.
+- Chapter 4 ("Crossing") drafted, reviewed (continuity + literary), and revised. ~5,500 words.
+- Chapter 5 ("Antlers") drafted, reviewed (continuity + literary), revised, and humanized. ~4,893 words.
+- Chapter 6 ("Skin") drafted, reviewed (continuity + literary), revised, and humanized. ~5,500 words.
+- Chapter 7 ("Eyes") drafted, reviewed (continuity + literary), revised, and humanized. ~6,300 words.
+- Chapter 8 ("Roots") drafted, reviewed (continuity + literary), revised, and humanized. ~6,200 words. Midpoint reversal chapter.
+- Chapter 9 ("Charge") drafted, reviewed (continuity + literary), revised, and humanized. ~6,500 words. Crisis chapter — boar encounter, grief eruption.
+- Chapter 10 ("Web") drafted, reviewed (continuity + literary), revised, and humanized. ~4,780 words. Spider encounter — identity-narrative stripped, final animal-demon.
+- Chapter 11 ("Dissolve") drafted, reviewed (continuity + literary), revised, and humanized. ~4,950 words. Climax chapter — ego dissolution, network revelation, integration of all fragments, frog witnesses ("There you are"), first pre-dawn gray.
+- Chapter 12 ("Stream") drafted, reviewed (continuity + literary), revised, and humanized. ~3,450 words. Integration chapter — dawn transition, dawn stream (drinking, washing, physical reckoning), frog as companion (6th appearance), varied thrush bookend, grief flowing not gone, approach to the clearing.
+- Chapter 13 ("Clearing") drafted, reviewed (continuity + literary), revised, and humanized. ~2,950 words. Final chapter — resolution. Ada emerges into meadow (Zone 5), gold dawn light, wood sorrel opening, sky immense. Frog's 7th and final appearance: just a toad on a stone, trills once, sacred and ordinary collapsed. Forest object (smooth stone) discovered and held. Ada walks into the ordinary world, wounded and whole and awake. All 13 chapters complete.
+- Full-manuscript continuity pass complete (continuity-full-pass-01.md). Overall risk: LOW. Two medium issues fixed (stone size harmonized, "fourteen hours" replaced with vague phrasing).
+- Full-manuscript literary pass complete (literary-full-pass-01.md). Overall impression: STRONG. 12 revision priorities identified and addressed.
+- Reader review complete (reader-review.md). Overall impression: COMPELLING. Would recommend.
+- Full-manuscript revisions complete. All 13 chapters revised: negation cascades reduced ~35%, "something" audit (~30% replaced), declarative endings varied, hum compressed, chapter openings varied (Chs. 4, 7, 12), wolf and snake departures varied, spider dialogue softened, dissolution friction beat added, walking passages tightened, body-before-mind commentary converted to action, Ch. 4 far-bank and Ch. 8 root-hollow tightened.

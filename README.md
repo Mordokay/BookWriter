@@ -1,6 +1,6 @@
 # BookWriter
 
-A multi-agent system that writes a novella for you. You provide a short creative brief, then guide the process with small, specific notes. Nine specialized AI agents handle everything else — theme, world, characters, plot, prose, and quality review.
+A multi-agent system that writes a novella for you. You provide a short creative brief, then guide the process with small, specific notes. Ten specialized AI agents handle everything else — theme, world, characters, plot, prose, and quality review.
 
 ---
 
@@ -18,7 +18,7 @@ That's it. You don't need to plan the story yourself. The agents do the planning
 
 ## How It Works
 
-The system has 9 agents that run in sequence:
+The system has 11 agents that run in sequence:
 
 | Step | Agent | What it does |
 |------|-------|-------------|
@@ -31,6 +31,8 @@ The system has 9 agents that run in sequence:
 | 7 | **Chapter Writer** | Drafts prose for each chapter |
 | 8 | **Continuity Editor** | Checks for plot holes, timeline issues, contradictions |
 | 9 | **Literary Critic** | Evaluates prose quality, pacing, emotional impact |
+| 10 | **Revision Writer** | Surgically revises chapters based on review feedback |
+| 11 | **Humanizer** | Final pass for natural, human-readable prose. Removes AI writing tells, fixes robotic phrasing, ensures accessibility |
 
 All story data lives in markdown files under `story/`. The agents read and write these files as they work. Everything is transparent and editable.
 
@@ -335,10 +337,14 @@ to draft:
 After drafting, use:
 - continuity-editor to create story/reviews/continuity-ch01.md
 - literary-critic to create story/reviews/literary-ch01.md
+- revision-writer to revise story/chapters/ch01.md based on both reviews
+- humanizer to do a final pass on the prose (see story/humanizer-checklist.md):
+  remove AI writing tells, fix robotic phrasing, ensure readability and
+  natural sentence flow
 
 Then summarize:
+- what was revised and why
 - whether chapter 1 is safe to proceed with
-- top revision suggestions
 - any canon that should be updated
 
 Do not write chapter 2 yet unless I ask.
@@ -352,8 +358,8 @@ Once you're confident in the quality and want to move faster:
 
 ```
 Continue writing. Draft the next 2 chapters following the same process:
-write, continuity review, literary review. Pause after both are done.
-Update manuscript-status.md.
+write, continuity review, literary review, revision, humanizer pass.
+Pause after both are done. Update manuscript-status.md.
 ```
 
 ### The Final Compile Prompt
@@ -361,6 +367,7 @@ Update manuscript-status.md.
 ```
 Act as the orchestrator. Run a final continuity pass across all chapters.
 Then run a final literary pass. Summarize all issues found.
+Use the revision-writer to address critical issues in each chapter.
 After revisions are complete, compile the manuscript to output/manuscript.md.
 ```
 
@@ -427,6 +434,22 @@ python3 scripts/compile_manuscript.py
 
 ---
 
+## Running State -- How Continuity Scales
+
+As the book grows past 4-5 chapters, reading every prior chapter in full before writing the next one becomes impractical -- context limits, agent focus, and token costs all suffer. The running state file solves this.
+
+**What it is:** A cumulative state tracker (`story/running-state.md`) that records everything that has happened in the story -- Ada's physical condition, injuries, objects, psychological state, lessons learned, motifs, foreshadowing, unresolved threads, and chapter summaries.
+
+**Why it exists:** By chapter 10, you'd have ~50,000 words of prior prose plus ~20,000 words of canon files. The running state file lets agents access all continuity-critical information without re-reading everything. It stays at ~1,000-2,000 words regardless of how many chapters exist.
+
+**How it works:** After each chapter is revised, the orchestrator updates `running-state.md` from the chapter's Continuity Notes. The chapter writer reads this file + the 2 most recent full chapters (for voice continuity) instead of all prior chapters. The continuity editor reads it + the 3 most recent chapters + Continuity Notes sections from all earlier chapters.
+
+**The rule:** When in doubt, include the detail. A minor detail from Chapter 3 might be critical in Chapter 9. The cost of an extra line is near zero; the cost of a missed detail is a broken continuity.
+
+**For you:** If you notice something in the running state that's wrong or missing, edit it directly. The agents trust this file as ground truth alongside the canon files.
+
+---
+
 ## Project Structure
 
 ```
@@ -442,7 +465,8 @@ BookWriter/
 │   ├── chapter_planner.md
 │   ├── chapter_writer.md
 │   ├── continuity_editor.md
-│   └── literary_critic.md
+│   ├── literary_critic.md
+│   └── revision_writer.md
 ├── story/
 │   ├── brief.md                 # YOUR INPUT — fill this out
 │   ├── goals.md                 # Project scope
@@ -453,7 +477,9 @@ BookWriter/
 │   ├── plot.md                  # Conflict, structure, climax
 │   ├── timeline.md              # Chronology
 │   ├── chapter-outline.md       # Chapter-by-chapter plan
+│   ├── running-state.md         # Cumulative state tracker
 │   ├── constraints.md           # Hard rules
+│   ├── humanizer-checklist.md   # Final-pass agent checklist
 │   ├── user-feedback.md         # YOUR STEERING — add notes here
 │   ├── manuscript-status.md     # Progress tracker
 │   ├── chapter-briefs/          # Detailed brief per chapter

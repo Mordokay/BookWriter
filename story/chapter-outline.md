@@ -7,7 +7,7 @@
 - **Act III -- Integration (Chapters 11-13):** Surrender, revelation, emergence. Dawn approaches. Ada emerges whole, not triumphant.
 
 **Total chapters:** 13
-**Estimated word count:** 45,000-55,000 words
+**Estimated word count:** 75,000-90,000 words
 **POV:** Close third person, locked to Ada. Past tense (with limited present-tense passages during peak psychedelic intensity).
 
 ---
