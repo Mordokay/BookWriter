@@ -27,7 +27,7 @@ drafting
 - [x] chapter 9 drafted
 - [x] chapter 10 drafted
 - [x] chapter 11 drafted
-- [ ] chapter 12 drafted
+- [x] chapter 12 drafted
 - [ ] chapter 13 drafted
 - [ ] continuity pass completed
 - [ ] literary pass completed
@@ -51,3 +51,4 @@ drafting
 - Chapter 9 ("Charge") drafted, reviewed (continuity + literary), revised, and humanized. ~6,500 words. Crisis chapter — boar encounter, grief eruption.
 - Chapter 10 ("Web") drafted, reviewed (continuity + literary), revised, and humanized. ~4,780 words. Spider encounter — identity-narrative stripped, final animal-demon.
 - Chapter 11 ("Dissolve") drafted, reviewed (continuity + literary), revised, and humanized. ~4,950 words. Climax chapter — ego dissolution, network revelation, integration of all fragments, frog witnesses ("There you are"), first pre-dawn gray.
+- Chapter 12 ("Stream") drafted, reviewed (continuity + literary), revised, and humanized. ~3,450 words. Integration chapter — dawn transition, dawn stream (drinking, washing, physical reckoning), frog as companion (6th appearance), varied thrush bookend, grief flowing not gone, approach to the clearing.
