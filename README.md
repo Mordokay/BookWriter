@@ -427,6 +427,30 @@ A guided creative interview that asks you questions in 6 rounds (seed, world, ch
 
 Automatically detects the next unwritten chapter and runs the full pipeline: draft, continuity review, literary review, revision, humanizer pass, and running-state update. One command, one complete chapter.
 
+### `/next-stage` — Run the Next Pipeline Stage
+
+Automatically determines where the project is in the pipeline and executes the next stage. Tracks progress through all 7 stages:
+
+1. **Theme & Style** — generates theme.md and style-guide.md (checkpoint: user review)
+2. **World, Characters, Plot** — generates world.md, characters.md, plot.md (checkpoint: user review)
+3. **Chapter Outline** — generates chapter-outline.md (checkpoint: user review)
+4. **Chapter Briefs** — generates all chapter briefs
+5. **Write Chapters** — drafts, reviews, revises, and humanizes one chapter at a time (checkpoint: every 2 chapters)
+6. **Full Reviews & Revisions** — full-manuscript continuity, literary, and reader passes + revisions (checkpoint: user review)
+7. **Compile** — assembles manuscript and exports EPUB
+
+Just keep running `/next-stage` to advance through the entire book-writing pipeline. The command pauses at checkpoints for your review before continuing.
+
+### `/destroy` — Reset for a New Book
+
+Clears all story-specific content so you can start a fresh book. **Requires explicit confirmation** before proceeding. This will:
+
+- Delete all chapters, chapter briefs, reviews, output files, and images
+- Reset all story files (brief, theme, world, characters, plot, etc.) to empty templates
+- Preserve the project structure, agents, commands, scripts, README, and CLAUDE.md
+
+Run `/interview` or edit `story/brief.md` after destroying to begin a new book.
+
 ### `/export` — Export to EPUB
 
 Generates an EPUB file from the compiled manuscript with cover art and chapter images.
@@ -512,6 +536,8 @@ BookWriter/
 ├── .claude/commands/              # Slash commands
 │   ├── interview.md
 │   ├── build-chapter.md
+│   ├── next-stage.md
+│   ├── destroy.md
 │   └── export.md
 ├── story/
 │   ├── brief.md                 # YOUR INPUT — fill this out
