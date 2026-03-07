@@ -67,18 +67,26 @@ setup
 - Project reset for new book.
 ```
 
-## Step 4: Do NOT modify
+## Step 4: Clean story-specific references from kept files
+
+Scan the following files for references to the previous story's specific characters, settings, or details (e.g., character names, specific creatures, specific locations). Replace them with generic equivalents:
+
+- `story/humanizer-checklist.md` -- replace any protagonist name with "the protagonist", replace story-specific dialogue examples with generic ones
+- `.claude/agents/orchestrator.md` -- in the "Update Running State" step, replace any story-specific state tracking items (character names, specific creature types) with generic terms ("protagonist's physical/psychological state", "key character appearances", "recurring motifs")
+- `.claude/agents/reader_agent.md` -- in the Evaluation Categories table, replace any story-specific references (character names, specific encounter types, genre-specific accessibility questions) with generic equivalents
+
+Do NOT modify the structure or format of these files -- only replace story-specific nouns and references with generic ones.
+
+## Step 5: Do NOT modify
 
 - `CLAUDE.md`
-- `README.md`
-- `.claude/agents/*`
+- `README.md` (except story-specific references outside the brief example section)
 - `.claude/commands/*`
 - `.claude/settings.local.json`
 - `scripts/*`
 - `.venv/`
-- `story/humanizer-checklist.md` (this is a process file, not story content)
 
-## Step 5: Report
+## Step 6: Report
 
 After cleanup, report:
 - What was cleared

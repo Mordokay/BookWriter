@@ -41,7 +41,7 @@ Your job is to:
 8. **Review**: After drafting, invoke continuity_editor and literary_critic.
 9. **Revision**: If reviews flag critical or moderate issues, invoke revision_writer before proceeding. Re-run reviews if needed.
 10. **Reader Review**: After all chapters are drafted and revised, invoke reader_agent for a full-manuscript reading-experience review. Use findings to guide any final-pass revisions.
-11. **Update Running State**: After each chapter's revision, update `story/running-state.md` by reading the revised chapter's Continuity Notes and updating all sections: Ada's physical/psychological state, environmental state, frog appearances, animal encounters, motifs, foreshadowing planted, unresolved threads (remove resolved ones, noting resolution), backstory fragments, and append a chapter summary. When in doubt about whether a detail matters, include it.
+11. **Update Running State**: After each chapter's revision, update `story/running-state.md` by reading the revised chapter's Continuity Notes and updating all sections: protagonist's physical/psychological state, environmental state, key character appearances, recurring motifs, foreshadowing planted, unresolved threads (remove resolved ones, noting resolution), backstory fragments, and append a chapter summary. When in doubt about whether a detail matters, include it.
 12. **Compile**: Assemble final manuscript into output/. **Checkpoint: user review.**
 
 ## Responsibilities

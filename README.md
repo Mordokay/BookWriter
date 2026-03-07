@@ -467,7 +467,7 @@ The export will:
 1. Read the compiled manuscript from `output/manuscript.md`
 2. Include the cover image from `ImageAssets/Book_cover.png` (if present)
 3. Include chapter images from `ImageAssets/` (resized for e-readers, if present)
-4. Output to `output/the-forest-inside.epub`
+4. Output the EPUB to `output/`
 
 If no images exist, it generates a text-only EPUB.
 
@@ -503,7 +503,7 @@ python3 scripts/compile_manuscript.py
 
 As the book grows past 4-5 chapters, reading every prior chapter in full before writing the next one becomes impractical -- context limits, agent focus, and token costs all suffer. The running state file solves this.
 
-**What it is:** A cumulative state tracker (`story/running-state.md`) that records everything that has happened in the story -- Ada's physical condition, injuries, objects, psychological state, lessons learned, motifs, foreshadowing, unresolved threads, and chapter summaries.
+**What it is:** A cumulative state tracker (`story/running-state.md`) that records everything that has happened in the story -- the protagonist's physical condition, injuries, objects, psychological state, lessons learned, motifs, foreshadowing, unresolved threads, and chapter summaries.
 
 **Why it exists:** By chapter 10, you'd have ~50,000 words of prior prose plus ~20,000 words of canon files. The running state file lets agents access all continuity-critical information without re-reading everything. It stays at ~1,000-2,000 words regardless of how many chapters exist.
 

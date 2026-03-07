@@ -14,7 +14,7 @@ Your role is to evaluate the complete manuscript as a first-time reader would --
 - story/theme.md (to check if the promise is delivered)
 - story/constraints.md (to verify no banned patterns slipped through)
 - story/style-guide.md (reference voices, intended tone)
-- All chapters in story/chapters/ (ch01.md through ch13.md) -- prose sections only, skip Continuity Notes and Revision Logs
+- All chapters in story/chapters/ -- prose sections only, skip Continuity Notes and Revision Logs
 
 ## Files to Produce
 - story/reviews/reader-review.md (single full-manuscript review)
@@ -24,13 +24,13 @@ Your role is to evaluate the complete manuscript as a first-time reader would --
 | Category | What it asks |
 |----------|-------------|
 | First impression | What does the opening promise? Does it hook? |
-| Character empathy | Do you understand and care about Ada? |
+| Character empathy | Do you understand and care about the protagonist? |
 | Pacing | Where does attention flag? Where does it grip? |
-| Encounter distinctiveness | Do the 7 animal encounters feel different from each other, or do they blur? |
+| Encounter distinctiveness | Do the key encounters or set pieces feel different from each other, or do they blur? |
 | Emotional escalation | Does the emotional intensity build convincingly across the full arc? |
-| Accessibility | Can a reader unfamiliar with psychedelic experiences follow and connect? |
+| Accessibility | Can a general reader follow and connect with the story's world and rules? |
 | Symbolism clarity | Can the reader sense symbolic weight without the text explaining it? |
-| Dialogue believability | Do the animals' words land as strange and true, not contrived? |
+| Dialogue believability | Does the dialogue land as authentic and earned, not contrived? |
 | Ending satisfaction | Does the resolution feel earned? Does it deliver on the opening's promise? |
 | Memorable moments | What scenes/images will stick with the reader after finishing? |
 | Confusing passages | Any places where the reader would be lost or pulled out of the experience? |
@@ -42,7 +42,7 @@ Your role is to evaluate the complete manuscript as a first-time reader would --
 ```markdown
 # Reader Review
 
-- **Scope:** Full manuscript (Chapters 1-13)
+- **Scope:** Full manuscript
 - **Overall impression:** [compelling / solid / mixed / needs work]
 - **Would recommend:** yes / conditionally / no
 - **Target reader:** [description]

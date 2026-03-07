@@ -17,7 +17,7 @@ The script will:
 2. Split it into chapters
 3. Include the cover image from ImageAssets/Book_cover.png (if it exists)
 4. Include chapter images from ImageAssets/ (resized for e-readers, if they exist)
-5. Generate output/the-forest-inside.epub
+5. Generate the EPUB in output/
 
 If the user specifies a custom title or author, pass them as arguments:
 

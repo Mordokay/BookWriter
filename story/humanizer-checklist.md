@@ -37,7 +37,7 @@ Flag and replace any of these (they appear frequently in AI writing and rarely i
 - [ ] No Latin species names in prose (use common names or descriptions).
 - [ ] No word that a typical adult reader would need to look up, unless the context makes its meaning clear. Unusual words are fine if the sentence teaches the reader what they mean.
 - [ ] Technical/botanical terms are acceptable only if they're common enough that most readers have encountered them (e.g., "moss," "fern," "cedar," "toadstool" are fine; "sporophyte," "rhizomorph," "basidiocarp" are not).
-- [ ] If Ada recognizes a species, describe what she sees. Don't name the taxonomy.
+- [ ] If the protagonist recognizes a species, describe what they see. Don't name the taxonomy.
 
 ## 5. Description and metaphor
 
@@ -58,8 +58,8 @@ Flag and replace any of these (they appear frequently in AI writing and rarely i
 ## 7. Dialogue and interior voice
 
 - [ ] Interior thoughts should sound like a real person thinking, not like polished prose. Short. Fragmented. Sometimes grammatically rough.
-- [ ] If Ada has an interior monologue beat, it should be distinct from the narrator's voice. The clinical voice has its own register. The foundational thoughts ("You can handle this") have theirs.
-- [ ] Animal dialogue should feel alien and strange, never like a therapist or self-help book.
+- [ ] If the protagonist has an interior monologue beat, it should be distinct from the narrator's voice. Each internal register should have its own quality.
+- [ ] Non-human or fantastical dialogue should feel alien and strange, never like a therapist or self-help book.
 
 ## 8. Pacing and padding
 
