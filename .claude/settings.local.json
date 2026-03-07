@@ -11,6 +11,7 @@
       "Bash(git status)",
       "Bash(git diff *)",
       "Bash(ls *)",
+      "Bash(awk *)",
       "Bash(find *)",
       "Bash(rg *)",
       "Bash(cat *)",
