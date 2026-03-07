@@ -22,8 +22,8 @@ drafting
 - [x] chapter 4 drafted
 - [x] chapter 5 drafted
 - [x] chapter 6 drafted
-- [ ] chapter 7 drafted
-- [ ] chapter 8 drafted
+- [x] chapter 7 drafted
+- [x] chapter 8 drafted
 - [ ] chapter 9 drafted
 - [ ] chapter 10 drafted
 - [ ] chapter 11 drafted
@@ -46,3 +46,5 @@ drafting
 - Chapter 4 ("Crossing") drafted, reviewed (continuity + literary), and revised. ~5,500 words.
 - Chapter 5 ("Antlers") drafted, reviewed (continuity + literary), revised, and humanized. ~4,893 words.
 - Chapter 6 ("Skin") drafted, reviewed (continuity + literary), revised, and humanized. ~5,500 words.
+- Chapter 7 ("Eyes") drafted, reviewed (continuity + literary), revised, and humanized. ~6,300 words.
+- Chapter 8 ("Roots") drafted, reviewed (continuity + literary), revised, and humanized. ~6,200 words. Midpoint reversal chapter.
