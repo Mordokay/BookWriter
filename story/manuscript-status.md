@@ -24,7 +24,7 @@ drafting
 - [x] chapter 6 drafted
 - [x] chapter 7 drafted
 - [x] chapter 8 drafted
-- [ ] chapter 9 drafted
+- [x] chapter 9 drafted
 - [ ] chapter 10 drafted
 - [ ] chapter 11 drafted
 - [ ] chapter 12 drafted
@@ -48,3 +48,4 @@ drafting
 - Chapter 6 ("Skin") drafted, reviewed (continuity + literary), revised, and humanized. ~5,500 words.
 - Chapter 7 ("Eyes") drafted, reviewed (continuity + literary), revised, and humanized. ~6,300 words.
 - Chapter 8 ("Roots") drafted, reviewed (continuity + literary), revised, and humanized. ~6,200 words. Midpoint reversal chapter.
+- Chapter 9 ("Charge") drafted, reviewed (continuity + literary), revised, and humanized. ~6,500 words. Crisis chapter — boar encounter, grief eruption.
