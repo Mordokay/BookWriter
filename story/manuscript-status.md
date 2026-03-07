@@ -25,7 +25,7 @@ drafting
 - [x] chapter 7 drafted
 - [x] chapter 8 drafted
 - [x] chapter 9 drafted
-- [ ] chapter 10 drafted
+- [x] chapter 10 drafted
 - [ ] chapter 11 drafted
 - [ ] chapter 12 drafted
 - [ ] chapter 13 drafted
@@ -49,3 +49,4 @@ drafting
 - Chapter 7 ("Eyes") drafted, reviewed (continuity + literary), revised, and humanized. ~6,300 words.
 - Chapter 8 ("Roots") drafted, reviewed (continuity + literary), revised, and humanized. ~6,200 words. Midpoint reversal chapter.
 - Chapter 9 ("Charge") drafted, reviewed (continuity + literary), revised, and humanized. ~6,500 words. Crisis chapter — boar encounter, grief eruption.
+- Chapter 10 ("Web") drafted, reviewed (continuity + literary), revised, and humanized. ~4,780 words. Spider encounter — identity-narrative stripped, final animal-demon.
