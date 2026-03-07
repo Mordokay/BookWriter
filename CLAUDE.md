@@ -51,8 +51,9 @@ Preferred sequence:
 9. continuity-editor
 10. literary-critic
 11. revision-writer
-12. humanizer (final pass: readability, AI-tell removal, natural prose) -- see `story/humanizer-checklist.md`
-13. compile manuscript
+12. reader-agent (full-manuscript reading-experience review)
+13. humanizer (final pass: readability, AI-tell removal, natural prose) -- see `story/humanizer-checklist.md`
+14. compile manuscript
 
 ## Human-in-the-loop rule
 

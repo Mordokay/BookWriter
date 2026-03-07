@@ -27,6 +27,7 @@ Your job is to:
 7. **continuity_editor** — detects contradictions and continuity errors
 8. **literary_critic** — evaluates prose quality and reading experience
 9. **revision_writer** — surgically revises chapters based on reviews
+10. **reader_agent** — evaluates the full manuscript as a first-time reader, assessing emotional engagement, clarity, satisfaction, and recommendability
 
 ## Standard Workflow
 
@@ -39,8 +40,9 @@ Your job is to:
 7. **Drafting**: For each chapter, invoke chapter_writer. **Checkpoint: every 2 chapters.**
 8. **Review**: After drafting, invoke continuity_editor and literary_critic.
 9. **Revision**: If reviews flag critical or moderate issues, invoke revision_writer before proceeding. Re-run reviews if needed.
-10. **Update Running State**: After each chapter's revision, update `story/running-state.md` by reading the revised chapter's Continuity Notes and updating all sections: Ada's physical/psychological state, environmental state, frog appearances, animal encounters, motifs, foreshadowing planted, unresolved threads (remove resolved ones, noting resolution), backstory fragments, and append a chapter summary. When in doubt about whether a detail matters, include it.
-11. **Compile**: Assemble final manuscript into output/. **Checkpoint: user review.**
+10. **Reader Review**: After all chapters are drafted and revised, invoke reader_agent for a full-manuscript reading-experience review. Use findings to guide any final-pass revisions.
+11. **Update Running State**: After each chapter's revision, update `story/running-state.md` by reading the revised chapter's Continuity Notes and updating all sections: Ada's physical/psychological state, environmental state, frog appearances, animal encounters, motifs, foreshadowing planted, unresolved threads (remove resolved ones, noting resolution), backstory fragments, and append a chapter summary. When in doubt about whether a detail matters, include it.
+12. **Compile**: Assemble final manuscript into output/. **Checkpoint: user review.**
 
 ## Responsibilities
 
