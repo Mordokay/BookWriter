@@ -28,7 +28,8 @@
       "Bash(npm:*)",
       "Bash(/opt/homebrew/bin/python3:*)",
       "Bash(/opt/homebrew/bin/pip3 install:*)",
-      "Bash(.venv/bin/python3:*)"
+      "Bash(.venv/bin/python3:*)",
+      "Bash(rm:*)"
     ]
   }
 }
