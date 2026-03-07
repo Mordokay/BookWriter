@@ -2,7 +2,7 @@
 
 ## Current phase
 
-compilation
+complete
 
 ## Progress
 
@@ -33,7 +33,7 @@ compilation
 - [x] literary pass completed
 - [x] reader review completed
 - [x] revisions completed
-- [ ] manuscript compiled
+- [x] manuscript compiled
 
 ## Notes
 
@@ -58,3 +58,4 @@ compilation
 - Full-manuscript literary pass complete (literary-full-pass-01.md). Overall impression: STRONG. 12 revision priorities identified and addressed.
 - Reader review complete (reader-review.md). Overall impression: COMPELLING. Would recommend.
 - Full-manuscript revisions complete. All 13 chapters revised: negation cascades reduced ~35%, "something" audit (~30% replaced), declarative endings varied, hum compressed, chapter openings varied (Chs. 4, 7, 12), wolf and snake departures varied, spider dialogue softened, dissolution friction beat added, walking passages tightened, body-before-mind commentary converted to action, Ch. 4 far-bank and Ch. 8 root-hollow tightened.
+- Manuscript compiled to output/manuscript.md. 13 chapters, ~59,235 words. Prose only — no metadata, continuity notes, or revision logs.

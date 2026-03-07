@@ -32,7 +32,8 @@ The system has 11 agents that run in sequence:
 | 8 | **Continuity Editor** | Checks for plot holes, timeline issues, contradictions |
 | 9 | **Literary Critic** | Evaluates prose quality, pacing, emotional impact |
 | 10 | **Revision Writer** | Surgically revises chapters based on review feedback |
-| 11 | **Humanizer** | Final pass for natural, human-readable prose. Removes AI writing tells, fixes robotic phrasing, ensures accessibility |
+| 11 | **Reader Agent** | Evaluates the full manuscript as a first-time reader -- emotional engagement, clarity, satisfaction |
+| 12 | **Humanizer** | Final pass for natural, human-readable prose. Removes AI writing tells, fixes robotic phrasing, ensures accessibility |
 
 All story data lives in markdown files under `story/`. The agents read and write these files as they work. Everything is transparent and editable.
 
@@ -414,6 +415,46 @@ The more specific your feedback, the better the result. Point to concrete things
 
 ---
 
+## Commands
+
+These are slash commands you can run directly in Claude Code.
+
+### `/interview` — Create a Book Brief
+
+A guided creative interview that asks you questions in 6 rounds (seed, world, characters, story shape, taste/boundaries, experience) and generates a complete `story/brief.md` from your answers. Use this instead of writing the brief by hand.
+
+### `/build-chapter` — Write the Next Chapter
+
+Automatically detects the next unwritten chapter and runs the full pipeline: draft, continuity review, literary review, revision, humanizer pass, and running-state update. One command, one complete chapter.
+
+### `/export` — Export to EPUB
+
+Generates an EPUB file from the compiled manuscript with cover art and chapter images.
+
+```bash
+# Basic usage (uses default title and author)
+/export
+
+# The script can also be run directly with custom options:
+.venv/bin/python3 scripts/export_epub.py --title "My Book Title" --author "Author Name"
+```
+
+The export will:
+1. Read the compiled manuscript from `output/manuscript.md`
+2. Include the cover image from `ImageAssets/Book_cover.png` (if present)
+3. Include chapter images from `ImageAssets/` (resized for e-readers, if present)
+4. Output to `output/the-forest-inside.epub`
+
+If no images exist, it generates a text-only EPUB.
+
+**Requirements:** Python virtual environment with `ebooklib`, `markdown`, and `Pillow`:
+```bash
+python3 -m venv .venv
+.venv/bin/pip install ebooklib markdown Pillow
+```
+
+---
+
 ## Utility Scripts
 
 Check progress:
@@ -466,7 +507,12 @@ BookWriter/
 │   ├── chapter_writer.md
 │   ├── continuity_editor.md
 │   ├── literary_critic.md
+│   ├── reader_agent.md
 │   └── revision_writer.md
+├── .claude/commands/              # Slash commands
+│   ├── interview.md
+│   ├── build-chapter.md
+│   └── export.md
 ├── story/
 │   ├── brief.md                 # YOUR INPUT — fill this out
 │   ├── goals.md                 # Project scope
@@ -488,8 +534,10 @@ BookWriter/
 ├── scripts/
 │   ├── validate_story.py
 │   ├── compile_manuscript.py
-│   └── chapter_status.py
-└── output/                      # Final compiled manuscript
+│   ├── chapter_status.py
+│   └── export_epub.py
+├── ImageAssets/                   # Cover and chapter images
+└── output/                        # Final manuscript and EPUB
 ```
 
 ---

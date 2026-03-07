@@ -21,7 +21,14 @@
       "Bash(swift test *)",
       "Bash(sed *)",
       "Read(//private/tmp/**)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(pandoc:*)",
+      "Bash(pip3 list:*)",
+      "Bash(npm:*)",
+      "Bash(/opt/homebrew/bin/python3:*)",
+      "Bash(/opt/homebrew/bin/pip3 install:*)",
+      "Bash(.venv/bin/python3:*)"
     ]
   }
 }
