@@ -28,7 +28,7 @@ drafting
 - [x] chapter 10 drafted
 - [x] chapter 11 drafted
 - [x] chapter 12 drafted
-- [ ] chapter 13 drafted
+- [x] chapter 13 drafted
 - [ ] continuity pass completed
 - [ ] literary pass completed
 - [ ] revisions completed
@@ -52,3 +52,4 @@ drafting
 - Chapter 10 ("Web") drafted, reviewed (continuity + literary), revised, and humanized. ~4,780 words. Spider encounter — identity-narrative stripped, final animal-demon.
 - Chapter 11 ("Dissolve") drafted, reviewed (continuity + literary), revised, and humanized. ~4,950 words. Climax chapter — ego dissolution, network revelation, integration of all fragments, frog witnesses ("There you are"), first pre-dawn gray.
 - Chapter 12 ("Stream") drafted, reviewed (continuity + literary), revised, and humanized. ~3,450 words. Integration chapter — dawn transition, dawn stream (drinking, washing, physical reckoning), frog as companion (6th appearance), varied thrush bookend, grief flowing not gone, approach to the clearing.
+- Chapter 13 ("Clearing") drafted, reviewed (continuity + literary), revised, and humanized. ~2,950 words. Final chapter — resolution. Ada emerges into meadow (Zone 5), gold dawn light, wood sorrel opening, sky immense. Frog's 7th and final appearance: just a toad on a stone, trills once, sacred and ordinary collapsed. Forest object (smooth stone) discovered and held. Ada walks into the ordinary world, wounded and whole and awake. All 13 chapters complete.
