@@ -27,6 +27,7 @@ Create a compelling, coherent, emotionally satisfying manuscript through a stage
 ## General workflow rules
 
 - Treat `story/brief.md` as the source of the user's desired reading experience.
+- Treat `story/guide.md` as the author's detailed creative direction — character profiles, dialogue pairings, ending direction, style rules, avoidance list, and motifs. Consult it alongside the brief for all planning and writing stages.
 - Treat `story/user-feedback.md` as the latest human guidance.
 - Treat `story/constraints.md` as hard constraints.
 - Treat `story/style-guide.md` as the prose and voice contract.
@@ -96,6 +97,7 @@ If a contradiction is necessary, flag it and propose a repair.
 ## File usage
 
 - `story/brief.md`: user's initial creative request
+- `story/guide.md`: author's detailed creative direction — character profiles, frog profiles, dialogue pairings, ending direction, writing style rules, things to avoid, symbolic motifs. **Must be consulted alongside the brief when building chapter outline, plot, characters, world, and writing chapters.**
 - `story/goals.md`: target scope and creative objectives
 - `story/theme.md`: themes, mood, genre, promise to the reader
 - `story/world.md`: setting, rules, institutions, technology, geography
@@ -134,14 +136,14 @@ When reviewing a chapter:
 5. suggest concrete fixes
 6. preserve the intended tone
 
-## Default target for the proof of concept
+## Current project target
 
-- format: book
-- 12 to 14 chapters
-- approximately 80 pages equivalent
-- 1 main protagonist
-- 1 central conflict
-- 1 contained but rich world
+- format: novel (~80,000-85,000 words)
+- 26 chapters (22 plot + 4 character-development/world-exploration)
+- 5-person human ensemble with 1 soft protagonist (Quill)
+- 6 core frog characters
+- 1 central conflict (cyclical, world-ending)
+- 1 rich hidden civilization (frog society in the Amazon, pockets worldwide)
 
 ## Operating style
 
