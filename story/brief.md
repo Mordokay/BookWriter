@@ -171,8 +171,8 @@ The book must never become: a TED Talk with amphibians, a generic first-contact 
 ## Target Length
 
 - Format: novel (shorter)
-- Target word count: approximately 80,000-85,000 words
-- Target chapter count: 26 (22 plot chapters + 4 character-development/world-exploration chapters)
+- Target word count: approximately 85,000-90,000 words
+- Target chapter count: 27 (22 plot + 4 character-development/world-exploration + 1 religion/mourning ritual)
 - Chapter style: short, fast, each functioning as one major conversation or revelation or complication. Chapters are volatile in size -- dense ensemble scenes can run 4,000-5,000 words; intimate or transitional chapters can be 2,500-3,000.
 
 ## Reader Experience I Want

@@ -33,13 +33,14 @@ These are hard rules. Violating any of these means the chapter or section needs 
 18. No lectures disguised as dialogue. Ideas emerge from friction, not formal debate.
 19. Detective-novel pacing. Every chapter moves the reader forward.
 20. Comedy comes from earnestness and inherent absurdity, not from narrator winking or forced whimsy.
+21. **No jargon the reader would need a glossary for.** Technical terms from canon files (chromatophore, cutaneous respiration, organic computation arrays, etc.) must be translated into concrete, visual, often funny descriptions in prose. Describe what things look like, not what they're called. See `story/humanizer-checklist.md` Section 1 for the full translation table. Scientists in dialogue may use technical terms if the narration translates them.
 
 ## Thematic Constraints
 
-21. No one-to-one political allegory. The book attacks certainty, not a specific ideology.
-22. No neat moral conclusions. The central question — whether the frogs are wise or merely sophisticated at surviving absurdity — must remain unresolved.
-23. Mystery is preserved. Not every technology, practice, or metaphysical question gets a full explanation.
-24. Every worldview presented (human and frog) must reveal both insight and absurdity.
+22. No one-to-one political allegory. The book attacks certainty, not a specific ideology.
+23. No neat moral conclusions. The central question — whether the frogs are wise or merely sophisticated at surviving absurdity — must remain unresolved.
+24. Mystery is preserved. Not every technology, practice, or metaphysical question gets a full explanation.
+25. Every worldview presented (human and frog) must reveal both insight and absurdity.
 
 ## Absolute Do-Not List
 

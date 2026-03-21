@@ -3,8 +3,8 @@
 ## Scope
 
 - Format: novel (shorter)
-- Target word count: ~80,000-85,000 words
-- Target chapter count: 26 (expanded from 22 with 4 character-development/world-exploration chapters)
+- Target word count: ~85,000-90,000 words
+- Target chapter count: 27 (22 plot + 4 character-development/world-exploration + 1 religion/mourning ritual)
 - Chapter style: short, fast, dialogue-driven
 
 ## Creative Objectives

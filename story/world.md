@@ -217,34 +217,201 @@ Oona summarizes frog economics accurately: "Nobody owns anything. Some people ju
 
 ## Spirituality: The Wet Way
 
-### Core Philosophy
+The Wet Way is the frogs' spiritual framework -- not quite a religion, not quite a philosophy, more like an entire way of being that has been refined over 200 million years. If a reader wanted to practice it, they could. It is internally consistent, practically applicable, and only slightly dependent on having permeable skin.
 
-Nihilistic Taoism. God is not a being but a life-force, a constant presence woven through all living and non-living matter. The universe is not designed, but it is alive. Consciousness is not special -- it is a temporary eddy in a continuous flow. Death is not an ending -- it is a return to the substrate from which new consciousness will emerge. The self is a useful fiction maintained for practical purposes and dissolved at intervals for spiritual hygiene.
+Its roots are Taoist: the universe has a flow, and the highest wisdom is to stop resisting it. Its mood is nihilistic: nothing means anything inherently, which is liberating rather than depressing. Its lifestyle is hippie: communal, nature-embedded, consciousness-expanding, anti-materialist, unconcerned with ownership or status, and deeply convinced that the boundaries between beings are less solid than they appear.
 
-The frogs call their spiritual framework **The Wet Way** (approximate translation; the Threnn term involves a sustained harmonic that implies "the path that flows through permeable things"). It is not institutional. There are no temples separate from daily life, no clergy distinct from the community, no scripture separate from the archive. The Wet Way is woven into eating, bathing, working, arguing, mating, dying, and defecating. Especially defecating. Vesh considers this consistency a point of pride.
+The frogs call it **The Wet Way** (approximate translation; the Threnn term involves a sustained harmonic implying "the path that flows through permeable things"). It is not institutional. There are no temples separate from daily life, no clergy distinct from the community, no scripture separate from the archive. The Wet Way is woven into eating, bathing, working, arguing, mating, dying, and defecating. Especially defecating. Vesh considers this consistency a point of pride.
 
-### The Consciousness-Merging Mission
+---
 
-The deepest collective aspiration of the Threnn: achieving a state of sustained merged consciousness in which individual selves dissolve into a shared awareness. They have been attempting this for millions of years. They have never fully succeeded. They keep trying.
+### The Core Concepts
 
-**How the rituals work:** Groups of frogs gather in circular formations in warm, mineral-rich pools. Synchronized breathing patterns alter blood chemistry and neural activity. Voss energy fields are modulated to resonate with neural rhythms. Chemical signals in the water synchronize hormonal states. Over the course of hours, participants report experiencing diminished ego boundaries, shared sensory perception, collective emotional states, and brief flashes of unified awareness.
+The Wet Way has a handful of named ideas that recur in daily speech, ritual, debate, and humor. These are the concepts a reader should absorb across the book:
 
-The experience is described variously as: transcendent, nauseating, beautiful, terrifying, boring (by Talla), and "like being a single note in a chord that almost resolves but never quite does" (by Vesh).
+**The Puddle**
 
-**The functional connection:** These rituals are not purely spiritual. The synchronized consciousness states are functionally necessary for the Pruning -- the coordinated quantum displacement operations require neural synchronization that only the merging rituals produce. Over generations, the spiritual and practical functions have become inseparable. This is either beautiful or convenient, depending on one's politics.
+What the frogs call the self. "You are a puddle" is not an insult. It is a description of nature. A puddle forms when conditions align -- rain falls, ground dips, water collects. The puddle has a shape. It reflects things. It is real while it lasts. But it was never separate from the water it is made of. When it evaporates or overflows or seeps into the ground, it has not died. It has stopped being a puddle and resumed being water.
 
-### Key Ceremonies
+Every frog is a puddle. Every frog knows this. Some find it comforting. Some find it terrifying. Most find it obvious, in the way that breathing is obvious -- true, constant, and not worth panicking about unless you stop to think about it, which the Wet Way gently discourages.
 
-- **Breathing circles:** Regular communal gatherings for consciousness synchronization. Part meditation, part social event, part maintenance of the neural coordination necessary for Pruning operations. Frequency increases as a Pruning approaches.
-- **Mourning rituals:** When a frog dies, their biological imprints are deposited in the archive. The community gathers to absorb a final chemical signature from the deceased -- a brief, partial experience of the dead frog's emotional state. Described as devastating and comforting in equal measure.
-- **Community planning meetings:** Held in the Speaking Chambers. Involve extended deliberation, vibration-polling, and chromatic displays. Function like a town hall meeting crossed with a group meditation crossed with a mild psychedelic experience, because the pools used during these meetings are laced with low-grade consciousness-linking compounds. Decisions made here tend to feel unanimous in the moment and contentious in retrospect.
-- **Naming ceremonies:** Tadpoles are named when they complete metamorphosis. The ceremony involves the entire pool-neighborhood and a sustained communal vibration that "introduces" the new frog to the settlement's acoustic identity. The named frog's chromatophore pattern is recorded for the first time.
+Vesh's version: "The self is a temporary swamp event. You are a puddle with opinions. I mean this as a compliment."
 
-### Brother Vesh's Role
+**The Croaking**
 
-Vesh is a **ritual guide** -- not a priest, not a leader, but a facilitator of spiritual practice and a public philosopher. He leads breathing circles, guides mourning rituals, and speaks extensively about the Wet Way in public and private settings. He is the most prominent living interpreter of Threnn spiritual tradition.
+What humans might call God, except it is not a being, not a creator, not a judge, and not watching. The Croaking is the sound the universe makes when it is happening. Everything croaks -- rocks croak slowly, water croaks by flowing, stars croak by burning, dying frogs croak by dying, moss croaks by growing, the voss croaks by glowing. To live is to croak. To die is to stop croaking individually and resume croaking as part of everything else.
 
-He is also frequently ridiculous. He interrupts his own profundity to eat insects, comment on the quality of the pool water, or make observations about bodily functions that he insists are spiritually relevant. He is either a genuine mystic or a very convincing eccentric. Possibly both.
+The Croaking is not worshipped. You do not pray to it. You participate in it. You ARE it, temporarily, in the same way a wave is the ocean temporarily. The wave does not pray to the ocean. It rises, moves, and returns.
+
+When asked about a creator, Vesh's standard response: "Who made the rain? The rain made the rain. That is the nature of rain."
+
+The Croaking is sometimes invoked casually: "The Croaking is loud today" (said on a day when everything feels alive and connected). "The Croaking is quiet" (said on a day when everything feels flat and separate, which the frogs consider a temporary spiritual weather pattern, not a crisis).
+
+**The Almost**
+
+The central spiritual experience and aspiration. During the merging rituals, when individual frogs synchronize their breathing, their body chemistry, and their awareness, there is a moment -- brief, unreliable, unmistakable -- when the chord of separate selves nearly resolves into a single unified consciousness. Individual boundaries thin. Shared perception flickers. The puddles almost remember they are water.
+
+It has never fully resolved. In 200 million years of trying. Not once.
+
+This is either the great failure of the Wet Way or its deepest teaching. The central theological debate:
+
+- **The Resolvers** believe full merging is possible and the Threnn simply have not achieved it yet. Every Almost is a step closer. The mission is real.
+- **The Tryers** believe the Almost IS the point. The value is in the trying, not the achieving. Full resolution would mean the end of individuality, which would mean no one left to appreciate the chord. "The chord is the trying" is their mantra.
+- **The Skeptics** (Talla's position) believe the Almost is a psychochemical artifact of synchronized breathing in mineral-rich water, and the theological framework built around it is a 200-million-year rationalization of a pleasant group bath.
+
+All three positions have been argued continuously for longer than mammals have existed. None has won. The frogs consider this appropriate.
+
+**The Flow**
+
+The Taoist core. The universe has a direction -- not a purpose, not a plan, but a current. Water flows downhill. Life flows toward complexity. Consciousness flows toward connection. Resisting the flow is possible but exhausting and ultimately pointless, like a puddle trying to flow uphill.
+
+The highest virtue in the Wet Way is **going with the flow** -- not passivity, but active non-resistance. Doing what the situation calls for without imposing your preferences on it. The closest human concept is wu wei, but the frogs arrived at it independently and from a different biological direction: when you breathe through your skin, the idea that you are separate from your environment is difficult to maintain.
+
+In practice, "going with the flow" means: eat when hungry, sleep when tired, argue when the argument matters, stop arguing when it doesn't, grieve quickly, love without clinging, defecate without embarrassment, and die without making a fuss. The frogs manage most of these most of the time. The dying-without-making-a-fuss part is harder than the philosophy suggests, which Vesh acknowledges by not acknowledging it.
+
+**Permeability as Virtue**
+
+The highest spiritual state is openness -- being permeable to the world passing through you. Closed systems die. Open systems participate. This is both biological fact (the frogs literally breathe through their skin, absorb chemical signals, and release their own) and spiritual principle.
+
+A "dry self" is a frog who is too closed off -- too attached to individual identity, too resistant to communal experience, too insistent on boundaries. Not exactly an insult, more like a concerned observation: "She has been very dry lately" means she is clinging to selfhood, resisting the communal flow. Talla has been called dry her entire adult life. She considers it a compliment.
+
+A "wet self" is not a goal so much as a natural state that most frogs return to when they stop trying to be separate. The breathing circles are, in one sense, just a structured way of getting wet again.
+
+---
+
+### The Creation Story: The First Wetness
+
+The Wet Way's cosmogony is barely a cosmogony. It goes like this:
+
+*Before the First Wetness, there was dryness. The dryness was not alive. It was not dead either, because death requires life first. The dryness just was. Then the dryness got wet. This was an improvement. From the wetness came movement. From movement came pattern. From pattern came awareness. From awareness came the question "why?" From the question came the realization that there is no why, only wet. This was also an improvement.*
+
+That is the entire creation story. The frogs consider it complete. Occasionally a young frog at a naming ceremony asks, "But who made the dryness wet?" and is told, with patient amusement: "The wetness made the dryness wet. That is the nature of wetness." If the young frog persists ("But where did the wetness come from?"), they are told: "From the dryness. They are the same thing in different moods."
+
+Vesh can expand this into a forty-minute lecture. The core theology, however, fits on a leaf.
+
+---
+
+### Sayings, Proverbs, and Recurring Phrases
+
+These should appear naturally in dialogue and narration throughout the book. They are the texture of the religion -- the phrases a reader will remember and possibly start using:
+
+- **"Wet in, wet out."** The lifecycle acknowledgment. Equivalent to "ashes to ashes." You came from moisture, you return to moisture. Said at mournings, at namings, and when someone drops something in the water.
+
+- **"May you dissolve gently."** The farewell and death blessing. May your death be easy, may you release your puddle-shape without clinging, may you return to the water with grace. Also used casually when leaving a party: "Dissolving gently. The fermented grubs are terrible tonight."
+
+- **"The puddle forgets the rain."** Said when someone is too self-focused, too wrapped up in their individual perspective. A gentle reminder that you came from something larger and will return to it.
+
+- **"Croak and be croaked through."** The closest thing to a prayer. Participate in existence and let existence participate in you. Some frogs say it at morning wetting. Others say it reflexively before difficult moments, the way a human might say "here goes nothing."
+
+- **"The chord is the trying."** Said by those who believe the merging mission's value is in the attempt, not the achievement. Also used as consolation after any failure: "Well, the chord is the trying."
+
+- **"Every puddle thinks it invented water."** Said to the arrogant. A humility reminder. Also applicable to civilizations.
+
+- **"Who made the rain? The rain made the rain."** The cosmological shrug. Used to shut down unanswerable questions.
+
+- **"The dryness was not alive. Then it got wet. This was an improvement."** The creation story, often quoted with amusement, especially when something goes well. Also applicable to cocktails.
+
+- **"A dry self cracks."** Warning against emotional closure. If you stay too closed, you break. Permeability is structural integrity.
+
+- **"Flow, don't push."** The wu-wei principle in four syllables. Said by parents to children, by coaches to athletes, by Vesh to everyone. Talla's response: "Easy to say when the current goes your direction."
+
+---
+
+### Daily Practices
+
+**Morning Wetting:** Most frogs begin each day by sitting in water and consciously breathing through their skin for a few minutes. Not meditation exactly -- more like a daily reminder that the boundary between self and world is permeable. Some take it very seriously, closing their eyes, synchronizing with nearby frogs. Others do it while eating breakfast and gossiping. Oona does both simultaneously and considers this entirely consistent with the Wet Way's teachings about integrating the sacred and the mundane.
+
+**Mealtime Acknowledgment:** Before eating, many frogs pause briefly. Not a prayer -- more like a nod. An acknowledgment that what they are about to eat was also croaking recently and that the eater will eventually be eaten in turn. The phrase, if any is spoken, is simply: "Wet in, wet out." Some frogs skip this. Nobody judges them. Well, some frogs judge them quietly.
+
+**Casual Invocations:** The Croaking and the flow are referenced constantly in ordinary speech, the way humans reference luck, fate, or weather. "The Croaking is strong today" (things feel connected). "Against the flow on that one" (that decision was forced). "Very dry of you" (you're being rigid). These are not prayers. They are idioms. The religion is the language.
+
+---
+
+### Rituals
+
+**Breathing Circles:** Regular communal gatherings in warm pools. Participants synchronize their breathing, which alters blood chemistry and loosens ego boundaries. The experience ranges from mildly pleasant (like a warm bath with friends) to profoundly disorienting (shared sensory perception, blurred identity). Frequency: daily for the devout, weekly for most, "when I remember" for Oona, never for Talla. The circles are part spiritual practice, part social event, part functional Pruning maintenance. These distinctions used to be clear. They are not clear anymore. Nobody is sure whether this is a problem.
+
+**The Mourning Dissolution:** When a frog dies, the community gathers at a pool within hours. The dead frog's body is placed in the water. As it releases its final chemical signature -- the last biological broadcast of a life -- the living frogs absorb it through their skin. For a few seconds, each frog in the pool experiences a flash of the dead frog's final emotional state. This is not metaphor. It is chemistry. The dead frog's last feeling passes through the living like a ripple.
+
+The experience varies: some final states are peaceful, some confused, some irritated (one elderly frog's last feeling was apparently annoyance about the temperature of the pool, which became a joke that lasted several generations). After the flash, the water is cycled, the biological imprint is deposited in the archive by Pem, and life resumes. The whole thing takes about an hour.
+
+Prolonged individual grief is gently discouraged, not because the dead don't matter but because holding onto the shape of a dissolved puddle is considered spiritually unhealthy: "The puddle has returned to the water. Do not hold the shape of what has flowed away." In practice, some frogs grieve longer than others, and nobody actually stops them. The encouragement is philosophical. The enforcement is nonexistent. The Wet Way is tolerant of its own ideals being imperfectly followed.
+
+**The Naming Croak:** When a tadpole completes metamorphosis, the pool-neighborhood gathers. A sustained communal vibration "introduces" the new frog to the settlement's acoustic identity -- essentially saying "this one is here now" in a way that every frog in range can feel. The new frog produces their first individual croak. It is heard by everyone. "Wet in," the community says. The new frog does not say "wet out." That comes later.
+
+**The Deep Soak:** An occasional (not regularly scheduled) ritual where a group of frogs submerge in mineral pools for extended hours, entering a state of reduced ego boundaries. Not the full merging -- more like loosening the edges of the puddle without dissolving it entirely. Somewhere between meditation, a hot spring, and a very mild psychedelic experience. Some frogs find it transcendent. Others find it boring. Oona finds it "pleasant but long" and usually falls asleep halfway through, which Vesh insists is also a valid form of spiritual practice.
+
+**The Full Merging:** The most intense ritual, performed by experienced practitioners (and operationally by displacement operators during the Pruning). Deeper than breathing circles, more sustained than the Deep Soak. The goal is the Almost -- the moment when the chord nearly resolves. Participants report shared perception, dissolved ego boundaries, and a collective emotional state that persists for hours afterward. Some participants lose coherence and need medical attention. A very small number do not return to individual consciousness. They are honored and not discussed.
+
+---
+
+### Theological Debates (Never Resolved)
+
+These arguments have been running for millions of years. Different frogs hold different positions. The Wet Way is not monolithic.
+
+1. **Is the Almost a failure or the point?** Resolvers vs. Tryers. The oldest debate. No consensus. Probably never will be. The frogs consider this appropriate.
+
+2. **Did the merging mission arise from spiritual aspiration or Pruning necessity?** The rituals and the planetary defense are now inseparable. Which came first? Does it matter? Krrik says it matters enormously. Vesh says it doesn't matter at all. Both are correct in ways that infuriate the other.
+
+3. **Is permeability spiritual truth or biology rationalized into religion?** The frogs breathe through their skin. Their philosophy of openness grows from this biology. Is the Wet Way profound wisdom, or is it what happens when a species with permeable skin builds a theology? Hart asks this question. No frog has ever given her a satisfying answer.
+
+4. **Can you practice the Wet Way without attending breathing circles?** Talla says yes. The mainstream says it is complicated. Noll says of course, participation is voluntary, while presiding over a system where non-participation is tracked and socially penalized.
+
+5. **Are the frogs who dissolve in merging and don't return saints or casualties?** The official position: they gave the ultimate gift, dissolving their puddle into the larger water. The unofficial position: they are dead and the system that killed them calls it an honor. Both positions are held simultaneously by most frogs without apparent contradiction.
+
+6. **Is the Wet Way true?** Vesh, asked directly: "Of course not. Truth is a dry concept. The Wet Way is useful, which is wetter and more honest. All religions are stories. Ours is a good one. It keeps us alive, keeps us connected, and only occasionally kills the participants. By the standards of religious history, this is exceptional."
+
+---
+
+### How Different Characters Relate to the Wet Way
+
+- **Vesh:** The public philosopher and true believer -- or the best performer of belief. He embodies the Wet Way so completely that it is impossible to tell where his conviction ends and his performance begins. He may secretly fear death despite preaching dissolution. This is either hypocrisy or the most honest thing about him.
+- **Noll:** Uses the Wet Way politically. He believes in it the way a shrewd administrator believes in the constitution -- it is the operating system of the civilization, and its value is proven by the civilization's survival. Whether it is "true" is not a question Noll considers relevant.
+- **Oona:** Practices the Wet Way the way most people practice anything -- casually, habitually, with genuine feeling at certain moments and complete indifference at others. Morning wetting while gossiping. Mourning dissolution with real tears. Breathing circles when she remembers. The Deep Soak when her joints hurt. She does not think about theology. She lives in it.
+- **Talla:** The critic. She considers the Wet Way a beautiful set of ideas that have been weaponized for social control. She does not reject the philosophy -- she rejects the mandatory breathing circles, the social pressure, the convenient fusion of spirituality and state power. "Flow, don't push," she quotes. "Then stop pushing me into the pool."
+- **Krrik:** Considers the spiritual framework mostly irrelevant and the rituals primarily a technology. The merging works because of biochemistry and neural synchronization, not because of the Croaking. He participates in breathing circles under protest during Prunings, and his annoyance at having to do so is genuine and visible. Vesh tells him that his resistance is itself a form of spiritual practice. Krrik tells Vesh to eat an insect.
+- **Pem:** Sees the Wet Way through the lens of deep time. Religions evolve. The Wet Way of today is not the Wet Way of a million years ago. The archive contains versions of the theology that would be unrecognizable to modern practitioners. Pem preserves all versions. Pem judges none. Pem considers the current version "adequate for its generation."
+
+---
+
+### What Makes the Wet Way Practicable for a Human Reader
+
+If a reader wanted to take the Wet Way home with them, the portable version would be:
+
+1. You are not permanent. You are a temporary shape that water has taken. This is not sad. It is the nature of water.
+2. The universe is not designed for you. It is not designed at all. It is alive, and you are part of it, and that is enough.
+3. Stay open. Closed systems die. Let the world pass through you. Breathe. Feel. Be affected. Affect others. The boundaries between you and everything else are thinner than you think.
+4. Meaning is not found. Meaning is what happens when you stop looking for it and start participating. Croak and be croaked through.
+5. Death is not an ending. It is a return. Wet in, wet out.
+6. The chord almost resolves. It never fully resolves. The trying is the practice. The Almost is enough.
+7. Flow, don't push.
+
+---
+
+### Religion Integration Map
+
+The following shows where specific Wet Way concepts should appear across the book, building naturally so the reader absorbs the religion gradually:
+
+**Act 1 (Discovery):**
+- Ch 3: Noll uses "dissolve gently" casually in farewell. The phrase registers as strange but is not explained.
+- Ch 5: Vesh's breathing circle uses Wet Way language. "The self is a temporary swamp event" is the first direct statement. "Croak and be croaked through" is overheard from the circle.
+
+**Act 2A (Immersion):**
+- Ch 7: Morning wetting observed by Marsh. Oona explains it casually while gossiping.
+- Ch 8: "Wet in, wet out" said at the fermentation competition (applied humorously to food).
+- Ch 11: The deep philosophy chapter. The Puddle doctrine, the Croaking, the Almost, the First Wetness, permeability as virtue. All introduced through Quill-Vesh conversation but in accessible language, interrupted by pool-life.
+- Ch 12 (NEW): **The mourning ritual chapter.** The Mourning Dissolution dramatized in full. "Wet in, wet out." "The puddle has returned to the water." "May you dissolve gently." The reader experiences the religion's handling of death from inside.
+- Ch 14: Pem shows the archive's religious records. The Wet Way has changed over time. "Adequate for its generation."
+- Ch 16: Hart catches Vesh unguarded. Sees him looking dry. The gap between preaching dissolution and fearing it.
+
+**Act 2B (Complication):**
+- Ch 17: The mandatory breathing circles. "Flow, don't push" vs. "stop pushing me into the pool." The religion as political tool.
+- Ch 20: The merging ritual. The Almost experienced at full intensity. The chord. The cost.
+
+**Act 3 (The Narrowing):**
+- Ch 24: Vesh tending damaged operators. "Everything worth preserving costs something it should not." The Wet Way under stress -- does it hold?
+- Ch 26: Vesh's answer to Quill's question about full merging. "I do not know. Nobody knows."
+- Ch 27: Quill in the breathing circle. The chord almost resolves. It does not. It is enough. The Wet Way's final note.
 
 ---
 

@@ -138,8 +138,8 @@ When reviewing a chapter:
 
 ## Current project target
 
-- format: novel (~80,000-85,000 words)
-- 26 chapters (22 plot + 4 character-development/world-exploration)
+- format: novel (~85,000-90,000 words)
+- 27 chapters (22 plot + 4 character-development/world-exploration + 1 religion/mourning ritual)
 - 5-person human ensemble with 1 soft protagonist (Quill)
 - 6 core frog characters
 - 1 central conflict (cyclical, world-ending)

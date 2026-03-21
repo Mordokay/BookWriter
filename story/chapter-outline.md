@@ -5,9 +5,9 @@
 ## Pacing Overview
 
 - **Act 1 (Ch 1-5): Discovery** -- Fast, funny, full of wonder. The biologists stumble into the impossible and the book establishes its rhythm: ensemble friction, rapid reveals, the primitive-impossible contrast hitting for the first time. Each chapter opens a new door. The reader should feel greedy for the next one.
-- **Act 2A (Ch 6-16): Immersion** -- Addictive, deepening, comedic with growing undertow. The frog civilization becomes real through every lens: politics, daily life, recreation, science, medicine, philosophy, ecology, memory, global scope, geography, and nocturnal intimacy. The Pruning builds from background anxiety to genuine threat. The comedy darkens without losing its energy. Four additional chapters allow the civilization to breathe -- competitive leisure, epidemiological horror-comedy, geographic expansion via displacement, and a liminal nocturnal chapter that bridges immersion into complication.
-- **Act 2B (Ch 17-21): Complication** -- Tenser, darker humor, comedy and dread inseparable. Mandatory-voluntary paradoxes exposed. The Pruning escalates. Political dissent sharpens. The merging ritual is dramatized at full intensity. The system's costs become visible. The trap is closing.
-- **Act 3 (Ch 22-26): The Narrowing** -- Operatic, quiet, ambiguous. The Pruning is fought. The cost is paid. The ultimatum arrives with bureaucratic calm. Five reactions. Absorption. The chord almost resolves. It does not. It is enough.
+- **Act 2A (Ch 6-17): Immersion** -- Addictive, deepening, comedic with growing undertow. The frog civilization becomes real through every lens: politics, daily life, recreation, science, medicine, philosophy, ecology, memory, global scope, geography, and nocturnal intimacy. The Pruning builds from background anxiety to genuine threat. The comedy darkens without losing its energy. Five additional chapters allow the civilization to breathe -- competitive leisure, epidemiological horror-comedy, the religion's mourning ritual dramatized from inside, geographic expansion via displacement, and a liminal nocturnal chapter that bridges immersion into complication.
+- **Act 2B (Ch 18-22): Complication** -- Tenser, darker humor, comedy and dread inseparable. Mandatory-voluntary paradoxes exposed. The Pruning escalates. Political dissent sharpens. The merging ritual is dramatized at full intensity. The system's costs become visible. The trap is closing.
+- **Act 3 (Ch 23-27): The Narrowing** -- Operatic, quiet, ambiguous. The Pruning is fought. The cost is paid. The ultimatum arrives with bureaucratic calm. Five reactions. Absorption. The chord almost resolves. It does not. It is enough.
 
 ---
 
@@ -16,12 +16,12 @@
 | Act | Chapters | Target Per Chapter | Act Total |
 |-----|----------|--------------------|-----------|
 | Act 1 | 1-5 | 2,800-3,200 | ~15,000 |
-| Act 2A | 6-16 | 2,800-3,500 | ~36,000 |
-| Act 2B | 17-21 | 3,000-3,400 | ~17,000 |
-| Act 3 | 22-26 | 2,500-3,800 (varied) | ~16,000 |
-| **Total** | **26** | | **~84,000** |
+| Act 2A | 6-17 | 2,800-3,500 | ~39,500 |
+| Act 2B | 18-22 | 3,000-3,400 | ~17,000 |
+| Act 3 | 23-27 | 2,500-3,800 (varied) | ~16,000 |
+| **Total** | **27** | | **~87,500** |
 
-Act 1 chapters are slightly shorter -- establishing rhythm, moving fast, each one a quick hit of discovery. Act 2A is now the longest act with eleven chapters -- immersion requires space for layered group dialogue, the civilization's complexity, and the four new chapters that expand leisure, medicine, geography, and nocturnal life. Chapters are volatile and can diverge significantly in size. Dense ensemble scenes and key dramatic chapters can run 4,000-5,000 words; transitional or intimate chapters can be 2,500-3,000. Act 2B compresses as the conflict narrows. Act 3 varies: Chapter 22 (the Pruning operation) and Chapter 25 (five reactions) are longer; Chapter 26 (the ending) is shorter, quieter, and deliberate.
+Act 1 chapters are slightly shorter -- establishing rhythm, moving fast, each one a quick hit of discovery. Act 2A is now the longest act with twelve chapters -- immersion requires space for layered group dialogue, the civilization's complexity, and the five new chapters that expand leisure, medicine, mourning, geography, and nocturnal life. Chapters are volatile and can diverge significantly in size. Dense ensemble scenes and key dramatic chapters can run 4,000-5,000 words; transitional or intimate chapters can be 2,500-3,000. Act 2B compresses as the conflict narrows. Act 3 varies: Chapter 23 (the Pruning operation) and Chapter 26 (five reactions) are longer; Chapter 27 (the ending) is shorter, quieter, and deliberate.
 
 ---
 
@@ -29,14 +29,14 @@ Act 1 chapters are slightly shorter -- establishing rhythm, moving fast, each on
 
 | Character | POV Chapters | Count | % |
 |-----------|-------------|-------|---|
-| **Quill** | 2, 5, 11, 14, 19, 23, 24, 26 | 8 | 31% |
-| **Reed** | 1, 9, 15, 18, 22 | 5 | 19% |
-| **Vale** | 4, 6, 13, 17 | 4 | 15% |
-| **Marsh** | 3, 7, 8, 20 | 4 | 15% |
-| **Hart** | 10, 12, 16, 21 | 4 | 15% |
-| **Rotating** | 25 | 1 | 4% |
+| **Quill** | 2, 5, 11, 12, 15, 20, 24, 25, 27 | 9 | 33% |
+| **Reed** | 1, 9, 16, 19, 23 | 5 | 19% |
+| **Vale** | 4, 6, 14, 18 | 4 | 15% |
+| **Marsh** | 3, 7, 8, 21 | 4 | 15% |
+| **Hart** | 10, 13, 17, 22 | 4 | 15% |
+| **Rotating** | 26 | 1 | 4% |
 
-Quill holds soft-protagonist position with approximately one-third of POV chapters, including the two most important chapters (24, 26) and the philosophical core (11, 14, 19). Reed carries the most non-Quill POV chapters because the scientific and operational threads run through him. Vale, Marsh, and Hart are now balanced at four chapters each. Hart's expanded POV (from two to four chapters) gives her the fungal audit (Ch 10), the system-failure walkthrough (Ch 12), the nocturnal bridge chapter (Ch 16), and the political peak (Ch 21). Marsh gains the competitive vibrations chapter (Ch 8), grounding her in the recreational and social texture of frog life. Chapter 25 rotates among all five.
+Quill holds soft-protagonist position with approximately one-third of POV chapters, including the two most important chapters (25, 27) and the philosophical core (11, 12, 15, 20). The new mourning-ritual chapter (Ch 12) deepens Quill's spiritual exposure -- he has heard the philosophy (Ch 11), now he experiences the practice. Reed carries the most non-Quill POV chapters because the scientific and operational threads run through him. Vale, Marsh, and Hart are now balanced at four chapters each. Hart's expanded POV (from two to four chapters) gives her the fungal audit (Ch 10), the system-failure walkthrough (Ch 13), the nocturnal bridge chapter (Ch 17), and the political peak (Ch 22). Marsh gains the competitive vibrations chapter (Ch 8), grounding her in the recreational and social texture of frog life. Chapter 26 rotates among all five.
 
 ---
 
@@ -49,7 +49,7 @@ Key rules for chapter writers:
 - Frogs talk to each other in front of humans. Humans talk to each other in front of frogs.
 - Topics shift. People arrive and leave. A conversation about metaphysics becomes a conversation about food.
 - Group scenes are where the book's energy lives. 3 humans and 4 frogs at the Pools, all talking simultaneously -- that is the texture.
-- Exceptions: Chapter 14 (Quill/Pem in the Archive) and the Quill/Vesh scene in Chapter 25 are deliberately intimate. Chapter 16 (Hart at night) is deliberately quieter and more atmospheric. These work because they are rare.
+- Exceptions: Chapter 15 (Quill/Pem in the Archive) and the Quill/Vesh scene in Chapter 26 are deliberately intimate. Chapter 17 (Hart at night) is deliberately quieter and more atmospheric. These work because they are rare.
 
 ---
 
@@ -316,7 +316,34 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 12: "Every Elegant System Leaks"
+### Chapter 12: "Wet In, Wet Out"
+- **Act:** 2A
+- **POV:** Quill
+- **Target word count:** ~3,500
+- **Setting:** The mourning pool, then the surrounding settlement
+- **Characters present:** Quill, Reed, Marsh, Vale, Hart; Vesh (guiding), Noll (attending formally), Oona (bringing food, visibly distressed), Talla (attending despite her critique), Pem (receiving biological imprint), Krrik (uncomfortable, standing at edge); 40-50 community frogs, an older frog who tells stories about Lenn, a young frog at their first mourning, a nursery caretaker arriving late, background mourners
+- **Chapter purpose:** The Wet Way's mourning ritual dramatized from inside. The reader experiences the religion's handling of death. Core Wet Way concepts (the Puddle, the Croaking, the Almost, "wet in wet out," "may you dissolve gently," permeability) are embedded in the ritual naturally. This is the Bokononism chapter -- by the end, the reader understands the religion well enough to explain it.
+- **Key beats:**
+  - An elderly frog named Lenn has died -- natural causes, unremarkable. Oona remembers him as "the one who always burned the first batch and blamed the humidity."
+  - The community gathers at the mourning pool within hours. 40-50 frogs present. All main characters present in different capacities.
+  - Vesh guides with traditional phrases: "Wet in, wet out." "The puddle has returned to the water." "May you dissolve gently."
+  - Lenn's body releases its final chemical signature. The living absorb it. Quill catches a faint trace: Lenn's last feeling was irritation about the pool temperature. Laughter and grief simultaneously.
+  - The water is cycled. Pem receives the imprint. The community disperses within the hour.
+  - The biologists are shocked by the efficiency. Oona: "Holding the shape of a dissolved puddle is unkind to the puddle and to yourself."
+  - A young frog asks Vesh what happens to the feeling. Vesh: "You carry a drop of everyone who dissolves near you. This is why old frogs are heavy with the dissolved."
+  - Hart to Talla afterward: "That was the most efficient grief I have ever seen." Talla: "Efficient grief is what you get when you have thirty years and cannot afford to spend three of them crying."
+  - Quill alone, processing. A civilization's entire relationship with death compressed into an hour.
+- **Primary dialogue threads:** Vesh's ritual speech (the Wet Way's liturgical phrases in action); Oona's domestic grief (funny, specific, heartbreaking); the young frog's innocent question; Hart and Talla's post-ritual exchange; the background frogs' stories about Lenn
+- **Reveals/Information:** The Wet Way's complete mourning ritual. The chemical signature sharing (the dead literally pass through the living). The speed of frog grief and its philosophical basis. The Puddle doctrine in practice. The religion's sayings deployed in their native context. How different frogs relate to the ritual differently.
+- **Pruning status:** Background -- some frogs leave the ritual early for Pruning preparations. The general exhaustion of the community is visible.
+- **Quill's arc position:** Deep spiritual exposure. He has heard the philosophy (Ch 11). Now he has experienced the practice. He does not know if the Wet Way is wisdom or the most sophisticated coping mechanism he has ever encountered. He suspects the Wet Way would say those are the same thing.
+- **Tone:** The book's most emotionally precise chapter. Funny and devastating in alternation. The comedy of Lenn's last feeling being about water temperature. The weight of a civilization's grief protocol. Earnest belief meeting biological absurdity.
+- **Ending energy:** Quill sitting with a question he cannot answer: is this wisdom or coping? The Wet Way would say those are the same thing. The reader should feel they have been inside a religion, not just told about one.
+- **Constraints to watch:** The mourning must not be sentimental. The frogs process death efficiently -- this is not human grief with frog costumes. The comedy must not undercut the emotion -- they should coexist in the same moments. The Wet Way concepts must arrive through the ritual naturally, not as exposition. By the end of this chapter, the reader should be able to explain the religion to a friend.
+
+---
+
+### Chapter 13: "Every Elegant System Leaks"
 - **Act:** 2A
 - **POV:** Hart
 - **Target word count:** ~3,200
@@ -341,7 +368,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 13: "The Other Root"
+### Chapter 14: "The Other Root"
 - **Act:** 2A
 - **POV:** Vale
 - **Target word count:** ~3,400
@@ -365,7 +392,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 14: "The Archive Remembers Selectively"
+### Chapter 15: "The Archive Remembers Selectively"
 - **Act:** 2A
 - **POV:** Quill
 - **Target word count:** ~3,000
@@ -389,7 +416,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 15: "The Siberian Argument"
+### Chapter 16: "The Siberian Argument"
 - **Act:** 2A
 - **POV:** Reed
 - **Target word count:** ~3,500
@@ -415,7 +442,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 16: "After Hours"
+### Chapter 17: "After Hours"
 - **Act:** 2A
 - **POV:** Hart
 - **Target word count:** ~3,000
@@ -439,7 +466,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 17: "Voluntary Participation"
+### Chapter 18: "Voluntary Participation"
 - **Act:** 2B
 - **POV:** Vale
 - **Target word count:** ~3,400
@@ -463,7 +490,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 18: "The Growth"
+### Chapter 19: "The Growth"
 - **Act:** 2B
 - **POV:** Reed
 - **Target word count:** ~3,200
@@ -487,7 +514,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 19: "The Merging"
+### Chapter 20: "The Merging"
 - **Act:** 2B
 - **POV:** Quill
 - **Target word count:** ~3,200
@@ -512,7 +539,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 20: "The Archivist's Silence"
+### Chapter 21: "The Archivist's Silence"
 - **Act:** 2B
 - **POV:** Marsh
 - **Target word count:** ~3,200
@@ -537,7 +564,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 21: "Talla's Wager"
+### Chapter 22: "Talla's Wager"
 - **Act:** 2B
 - **POV:** Hart
 - **Target word count:** ~3,400
@@ -561,7 +588,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 22: "The Displacement"
+### Chapter 23: "The Displacement"
 - **Act:** 3
 - **POV:** Reed
 - **Target word count:** ~3,800
@@ -586,7 +613,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 23: "The Cost"
+### Chapter 24: "The Cost"
 - **Act:** 3
 - **POV:** Quill
 - **Target word count:** ~3,200
@@ -611,7 +638,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 24: "The Administrative Courtesy"
+### Chapter 25: "The Administrative Courtesy"
 - **Act:** 3
 - **POV:** Quill (with sections from each biologist)
 - **Target word count:** ~3,000
@@ -635,7 +662,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 25: "Five Answers"
+### Chapter 26: "Five Answers"
 - **Act:** 3
 - **POV:** Rotating among all five biologists
 - **Target word count:** ~3,500
@@ -659,7 +686,7 @@ Key rules for chapter writers:
 
 ---
 
-### Chapter 26: "The Wet Continuity"
+### Chapter 27: "The Wet Continuity"
 - **Act:** 3
 - **POV:** Quill
 - **Target word count:** ~2,500

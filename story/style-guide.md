@@ -50,6 +50,28 @@ Different frogs sound different:
 - **Oona:** gossipy, warm, practical, domestic — speaks the way a neighbor talks over a fence, except the fence is made of bioluminescent moss
 - **Pem:** slow, deliberate, eerie, speaks as if quoting something ancient, occasional silence that means more than words
 
+## The Jargon Rule (CRITICAL — applies to all writing, not just final pass)
+
+This is an absurd comedy. No reader should need a glossary, a science degree, or a second read to understand what is happening. Technical terms from the canon files are internal reference labels. In prose, describe what things look like, sound like, and feel like. Prefer concrete, visual, and often funny descriptions over scientific vocabulary.
+
+**Key translations (canon term -> prose):**
+- chromatophore display/synchronization -> "their colors shifted" / "their skin flickered in unison" / "he turned six colors in a second, none reassuring"
+- cutaneous respiration -> "breathing through their skin"
+- organic computation arrays -> "the thinking moss" / "a patch of moss smarter than the entire human species, tended by a frog with a watering can"
+- quantum displacement -> "they folded space" / "the wet stones did something impossible and then they were in Siberia"
+- vibration-polling -> "a low hum passed through the room as they voted with their bodies"
+- neural synchronization -> "their minds clicking into alignment" / "thinking together"
+- biological modulation -> "Krrik's chemicals" / "the stuff Krrik was brewing to slow the growth"
+
+**Rules:**
+- If a term would make a reader pause, replace it with what the POV character actually sees.
+- Scientists in dialogue CAN use technical terms (Reed might say "cutaneous respiration"), but the narration or another character should translate it, creating comedy.
+- The funniest description is usually the most accessible. Comedy first.
+- Repeat simple descriptions rather than introducing jargon for variety. "Their colors shifted" twenty times is better than "chromatophore modulation" once.
+- **The glossary test:** scan every paragraph for words requiring a glossary entry. This book has no glossary. If you can't explain it in the sentence, you're being too technical.
+
+See `story/humanizer-checklist.md` Section 1 for the full translation table and detailed rules.
+
 ## Description
 
 Minimal. This book is not scenic. It moves through dialogue and interaction.

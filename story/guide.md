@@ -469,8 +469,8 @@ The ending should feel deeply wrong, strangely beautiful, and calm in a way that
 - Chapters are not very long and jump from one point to the next, merging together dialogues and interactions
 - It should read at the speed of a detective novel
 - If someone reads end to end it should almost feel like a movie/theater script for a high-budget Hollywood movie
-- The book should be around 80,000-85,000 words
-- 26 chapters (22 plot chapters + 4 character-development/world-exploration chapters)
+- The book should be around 85,000-90,000 words
+- 27 chapters (22 plot + 4 character-development/world-exploration + 1 religion/mourning ritual)
 - Chapters are volatile in size -- dense ensemble scenes can run 4,000-5,000 words; intimate or transitional chapters can be 2,500-3,000. Do not feel compelled to end a chapter because it got too big. You can split chapters if needed.
 
 ### Group Dialogue and Cross-Interaction (Critical Rule)
