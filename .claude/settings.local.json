@@ -1,35 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:chatgpt.com)",
-      "Bash(python:*)",
-      "Bash(python3:*)",
-      "Bash(wc:*)",
-      "Bash(grep *)",
+      "Bash(*)",
       "Read(./**)",
       "Edit(./**)",
-      "Bash(git status)",
-      "Bash(git diff *)",
-      "Bash(ls *)",
-      "Bash(awk *)",
-      "Bash(find *)",
-      "Bash(for *)",
-      "Bash(rg *)",
-      "Bash(cat *)",
-      "Bash/npm run */",
-      "Bash(xcodebuild *)",
-      "Bash(swift test *)",
-      "Bash(sed *)",
       "Read(//private/tmp/**)",
-      "Bash(grep:*)",
-      "Bash(mkdir:*)",
-      "Bash(pandoc:*)",
-      "Bash(pip3 list:*)",
-      "Bash(npm:*)",
-      "Bash(/opt/homebrew/bin/python3:*)",
-      "Bash(/opt/homebrew/bin/pip3 install:*)",
-      "Bash(.venv/bin/python3:*)",
-      "Bash(rm:*)"
+      "WebFetch(domain:chatgpt.com)",
+      "Skill(update-config)"
     ]
   }
 }
