@@ -401,11 +401,11 @@ The following shows where specific Wet Way concepts should appear across the boo
 - Ch 8: "Wet in, wet out" said at the fermentation competition (applied humorously to food).
 - Ch 11: The deep philosophy chapter. The Puddle doctrine, the Croaking, the Almost, the First Wetness, permeability as virtue. All introduced through Quill-Vesh conversation but in accessible language, interrupted by pool-life.
 - Ch 12 (NEW): **The mourning ritual chapter.** The Mourning Dissolution dramatized in full. "Wet in, wet out." "The puddle has returned to the water." "May you dissolve gently." The reader experiences the religion's handling of death from inside.
-- Ch 14: Pem shows the archive's religious records. The Wet Way has changed over time. "Adequate for its generation."
-- Ch 16: Hart catches Vesh unguarded. Sees him looking dry. The gap between preaching dissolution and fearing it.
+- Ch 15: Pem shows the archive's religious records. The Wet Way has changed over time. The archive curates memory politically: "the story the archive tells this year."
+- Ch 17: Hart catches Vesh unguarded at night. Sees him looking dry. The gap between preaching dissolution and fearing it.
 
 **Act 2B (Complication):**
-- Ch 17: The mandatory breathing circles. "Flow, don't push" vs. "stop pushing me into the pool." The religion as political tool.
+- Ch 18: The mandatory breathing circles. "Flow, don't push" vs. "stop pushing me into the pool." The religion as political tool.
 - Ch 20: The merging ritual. The Almost experienced at full intensity. The chord. The cost.
 
 **Act 3 (The Narrowing):**

@@ -164,58 +164,73 @@ Vale interrogates Noll about frog governance during a community planning session
 Marsh spends a full day with Oona, visiting the fermentation cellars, tadpole nurseries, and residential warrens. She observes the quiet evacuation of families from areas near the Pruning staging grounds.
 
 **Day 11-12 (Ch. 8)**
-Reed enters Krrik's laboratory. Krrik shows him the organic computation arrays, quantum displacement apparatus, and voss substrate. Krrik reveals the voss growth models are failing -- growth is anomalous. Reed offers his team's surface data on root density changes. Krrik cautiously accepts.
+Marsh attends a communal evening at the vibration arena. Competitive vibration games, fermentation tasting competition, courtship displays. All five biologists present, each reacting distinctly. Oona provides running commentary. Krrik despises the fermentation tasting. Quill observes the crowd's involuntary color synchronization and connects it to the breathing circles. Pruning visible only at the margins: thin attendance, exhausted operators.
 
-**Day 13 (Ch. 9)**
-Quill's first deep conversation with Vesh about the Wet Way, consciousness, death, and the mission. Vesh mentions, almost in passing, that the Pruning's merging rituals kill some participants.
+**Day 11-12 (Ch. 9)**
+Reed enters Krrik's laboratory. Sees the organic computation moss beds, quantum displacement apparatus (ring of wet stones), and voss growth models. Vesh wanders in and argues with Krrik about whether displacement is engineering or metaphysics. Oona and Marsh visit briefly. Voss growth confirmed at 67% beyond resting boundary and accelerating, models failing. Reed offers his team's surface data. Krrik grudgingly accepts: "Not useless."
 
 **Day 14 (Ch. 10)**
-Talla takes Hart through the parts of frog civilization the curated tour omitted: the outer settlement where voss growth encroaches, the breathing circle attendance records, the frogs displaced by Pruning staging.
+Hart conducts an unauthorized epidemiological survey of the treatment chambers with Reed and Marsh. Frog medicine revealed: limb regeneration, trivial cancer management, advanced pain management. The permeability trade-off discovered: fungal infections deliberately maintained because eliminating them would require sealing skin, destroying all communication and synchronization. Oona's moss compress debate. Krrik's accidental validation. Hart's verdict: "The frogs' relationship with disease is not negligence, it is philosophy."
 
 ---
 
 ### Week 3: Deepening
 
-**Day 15-16 (Ch. 11)**
-Quill visits Archivist Pem. Pem reveals fragments about previous humans absorbed into frog society -- the African herbalist, the Tupi trader. Pem deflects questions about their detailed fates. The curated nature of the archive becomes clear.
+**Day 15 (Ch. 11)**
+Quill's first deep exposure to the Wet Way at the communal pools during a social evening. Vesh introduces the Puddle ("the self as weather"), the Croaking ("the sound the universe makes"), and the Almost (200 million years of trying, chord never resolving). Hart and Talla provide skeptical counterpoint from across the pool. Vesh drops the merging deaths casually: "The work demands it. We do not discuss this at breathing circles." The pool goes quiet. Conversations resume within seconds.
 
-**Day 17-18 (Ch. 12)**
-The full Siberian delegation arrives. Cultural clash between Amazon and Siberian frogs over the role of consciousness-merging in Pruning operations. Siberian data combined with Reed's surface observations confirms the Pruning is the most severe in centuries. Krrik and the Siberian chief engineer begin collaborative (argumentative) work.
+**Day 16-17 (Ch. 12)**
+Lenn dies of old age. The Mourning Dissolution ritual dramatized in full: body placed in warm water, chemical signature released, living frogs absorb Lenn's last feeling (irritation about pool temperature). The Almost appears involuntarily: 48 frogs synchronize colors for 3 seconds during grief. Pem receives the biological imprint. Community disperses within the hour. Hart to Talla: "That was the most efficient grief I have ever seen." Talla: "Efficient grief is what you get when you have thirty years and cannot afford to spend three of them crying."
 
-**Day 19-20 (Ch. 13)**
-Noll announces increased breathing circle requirements. Vale attends a circle at Noll's invitation and experiences a brief consciousness-synchronization. Talla begins holding larger informal meetings in the Third Pool district.
+**Day 18-19 (Ch. 13)**
+Hart and Talla walk the settlement's edges. Voss encroaching at 2cm/4 days. Maintenance crews reduced from 6 to 4 teams. Breathing circle attendance tracking discovered: a logging frog records participation ("I simply record. What is done with the records is not my concern"). Relocated families in unchanged conditions. Talla admits no clean alternative: "The chain is also the rope that pulls you from the water." An older frog pushes back: "My children are alive because of the chain." Hart's verdict: "The frogs are not lying about the Pruning. But they are using it."
 
-**Day 21 (Ch. 14)**
-Krrik's revised models project growth exceeding anything in the accessible archive. Voss grows through a residential section wall. Displacement operators run increasingly complex coordination exercises. Krrik privately tells Reed the biological modulators may not be sufficient. Reed's surface observation data becomes a critical input to Krrik's modulation research.
+**Day 20-21 (Ch. 14)**
+Vale and Marsh travel via quantum displacement to an outer monitoring station with Talla and a deadpan guide. Displacement experience: dissolution, name-loss, reassembly. The monitoring station: 6 frogs tracking all human activity across 900+ sq km of Amazon. Total surveillance, cheerful, unsupervised. Talla: "Who watches the watchers?" Guide: "Nobody." Surface voss visible for the first time: 47 active growth zones (up from 31), warm soil, luminescence through cracks.
 
 ---
 
 ### Week 4: Crisis
 
 **Day 22-23 (Ch. 15)**
-Quill observes a full consciousness-merging ritual performed by experienced operators preparing for the Pruning. One operator is helped away unresponsive during the session. Quill is profoundly affected by the proximity of the ritual.
+Quill visits the Archive of Pem. The archive is alive: tissue cultures, spore patterns, song recordings in fungal networks. Pem on curation: "We remember what we choose. What you call 'history' we call 'the story the archive tells this year.'" Previous humans confirmed: the African herbalist (11 years), the Tupi trader (22 years). Pem's key line: "He was not sure if this was peace or damage. The archivist recorded both interpretations." Quill returns to the group carrying the trader's words alone.
 
 **Day 24 (Ch. 16)**
-Marsh notices increased mourning rituals for elderly frogs dying under Pruning preparation stress. She visits Pem to ask about historical Pruning mortality and discovers the archive manages information politically -- it records what the civilization needs to forget, but makes it difficult to access.
+The Siberian coordination meeting in the largest Speaking Chamber: 63+ frogs. Cultural clash: the Siberian lead challenges the Amazon merging mandate ("You have confused enjoyment with necessity"). Talla aligns with the Siberians, politically costly. Vesh rebuts. Reed pulled into technical sidebar with the Siberian engineer: surface-level voss emergence confirmed as unprecedented in 150 million years. Pruning confirmed as worst in centuries. Collective fear display: 63 frogs shift to the same pale green simultaneously.
 
 **Day 25-26 (Ch. 17)**
-Talla publicly refuses to attend breathing circles, the most overtly political act in the settlement's recent memory. Her informal meetings call for transparency about Pruning mortality data and examination of alternative methods. Noll visits the biologists' quarters and requests they speak publicly to help unify the community. All refuse or deflect.
+Hart cannot sleep. Walks the settlement at night. Sees displacement operators drilling (beautiful, exhausting), encounters a nine-year fermentation argument, meets the cleaner Revvi ("Pem keeps the dead. I keep the living"), and finds Vesh alone and unguarded at a meditation pool: grey-green, small, old, possibly afraid. The performance returns in stages when he notices her. Brief exchange. Vesh: "You sound like Talla." Hart returns at dawn. The settlement is beautiful at night. She tells no one.
 
 **Day 27-28 (Ch. 18)**
-The Pruning operations begin. Hundreds of synchronized operators coordinate quantum displacement of voss across hemispheres. The first wave is initially sufficient, then the voss pushes back in the eastern sectors. Three operators are pulled from the pools unconscious; one does not recover. Krrik adjusts the biological modulators using patterns informed by Reed's surface data. The second displacement wave holds. Barely. Operations continue over multiple days.
+Noll announces "enhanced community participation" -- breathing circles now mandatory in everything but name. Talla objects publicly; an unnamed coordinator defers: "after the emergency has passed." Vale attends a breathing circle at Noll's invitation and experiences ego-loosening he did not authorize. Noll: "You felt it." Hart attends Talla's Third Pool meeting -- growing attendance, two of Noll's public supporters attending privately. Reed reports modulation compounds failing.
+
+**Day 29-31 (Ch. 19)**
+The crisis touches every layer of settlement life. Krrik's lab in chaos -- voss at 90% above resting boundary, modulation compounds degrading to 41-hour effectiveness. Voss grows through a residential wall, displacing families. Operators pushed hard at the staging grounds -- three pulled from the last session. Hart and Reed clash about preparation vs. damage. Krrik: "Always is a comfort, not a guarantee."
+
+**Day 32 (Ch. 20)**
+The full consciousness-merging ritual dramatized at the deepest ceremonial pool. Forty-plus operators synchronize. The chord builds, nearly resolves, recedes. One operator does not recover -- carried away efficiently, the operation does not pause, the crowd does not react. Quill witnesses it from the upper ledge. Marsh grabs his arm. Reed stops whispering. Hart absent: "A group hallucination with operational consequences." Quill alone afterward -- his edges less distinct.
+
+**Day 33-34 (Ch. 21)**
+Marsh discovers the Pruning's hidden cost: accelerating elderly deaths (7 mourning rituals in 12 days). Oona: "The Pruning costs lives before it begins." Pem's archive exposed as politically managed: "What it needs to forget, it also records. In different places." Hart: "So the most advanced civilization manages public health data the same way every government on ours does." Oona arrives with grubs: "Eat."
+
+**Day 34-35 (Ch. 22)**
+Talla's dissent goes fully public. Refuses breathing circles at a communal meal: "If my absence endangers the Pruning, then the Pruning has a design problem, not a participation problem." Noll visits the biologists' quarters with Pem -- requests they speak publicly. All five refuse: Vale immediately, Marsh gently, Reed uncertainly, Hart with a laugh, Quill with silence. Pem observes and archives their reactions.
 
 ---
 
-### Week 5: The Narrowing
+### Week 5-6: The Narrowing
 
-**Day 29-31 (Ch. 19)**
-The Pruning's active phase winds down. The voss growth is managed but not eliminated. Operators recover slowly. Some who lost coherence during synchronization have not returned to full individual consciousness. Vesh tends to the damaged operators. One young operator does not respond. Quill witnesses the cost.
+**Day 35-36 (Ch. 23)**
+The Pruning operations at full scale. Six displacement platforms. Hundreds of operators synchronized. Reed at the modulation station feeding surface data. The displacement begins, voss slows, then the eastern sectors push back. Three operators pulled. One does not recover. Vesh sings among struggling operators -- the Wet Way made functional. Reed's data helps calibrate the second wave. The operation holds. Barely. Ongoing.
 
-**Day 32 (Ch. 20)**
-As the settlement begins to recover, Noll invites the biologists to the Pools. He delivers the ultimatum: remain as honored witnesses or undergo dignified cessation. Pem cites the precedent of previous humans. The biologists absorb the news.
+**Day 36-37 (Ch. 24)**
+The aftermath. Recovery pools. Vesh tends damaged operators, showing a private chromatophore color for the first time. Oona comforts a bereaved frog: "I kept putting two portions in the bowl for three months." Hart and Talla clean the staging grounds in wordless silence. Vesh: "Everything worth preserving costs something it should not." Quill's crisis: envy, pity, and fear indistinguishable.
 
-**Day 33-34 (Ch. 21)**
-Each biologist processes the ultimatum through their frog counterpart. Vale confronts Noll. Marsh grieves with Oona. Reed grapples with his own conflicted fascination in conversation with Krrik. Hart sits with Talla at the settlement's edge. Quill asks Vesh what full consciousness-merging would actually feel like.
+**Day 38 (Ch. 25)**
+The ultimatum. Noll invites the biologists to the Pools. "You may remain among us as honored witnesses and participants in our community. Or you may undergo dignified cessation. We do apologize for the constraint. Discovery is a form of entanglement, and entanglement, once established, cannot be selectively undone." Pem: "The previous humans adapted. Most of them. In time." Five simultaneous physical reactions. No biologist speaks. Quill is very still.
 
-**Day 35 and beyond (Ch. 22)**
-Weeks pass (extending the story to approximately six weeks total). The biologists are absorbed into frog life: Vale observes governance, Marsh studies domestic life alongside Oona, Reed works in Krrik's laboratory, Hart catalogues ecological data with Talla, and Quill attends breathing circles. The final scene: Quill in a warm pool, eyes closed, the chord almost resolving. The civilization continues. It is enough.
+**Day 39-40 (Ch. 26)**
+Five reactions in five registers. Vale confronts Noll (fury). Marsh sits with Oona (grief). Reed finds Krrik (guilty vertigo). Hart sits with Talla (pragmatic recognition). Quill finds Vesh and does not ask about the ultimatum -- asks about full merging. Vesh: "I do not know. Nobody knows. That is why we keep trying." Shared silence at the quarters. Nobody speaks.
+
+**Weeks later (Ch. 27)**
+The biologists are absorbed. Vale documents governance. Marsh belongs with Oona. Reed works in the lab. Hart organizes with Talla. Quill attends a breathing circle. Oona falls asleep. The chord almost resolves. It does not. It is enough.
