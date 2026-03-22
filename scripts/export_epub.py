@@ -28,8 +28,16 @@ body {
     font-family: "Iowan Old Style", Palatino, Georgia, serif;
     line-height: 1.7;
     margin: 1em;
-    color: #1a1a1a;
-    background-color: #fefefe;
+    color: #000;
+    background-color: transparent;
+}
+
+/* Navigation / TOC: left-aligned, no justify */
+nav ol, nav ul {
+    text-align: left !important;
+}
+nav li, nav a, nav p {
+    text-align: left !important;
 }
 
 h1.chapter-title {
