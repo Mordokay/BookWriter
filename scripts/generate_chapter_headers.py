@@ -22,24 +22,27 @@ random.seed(42)
 OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "ImageAssets", "chapter_headers")
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# Dimensions
-W, H = 1400, 250
+# Dimensions — high resolution, no downscaling
+# E-reader scales smoothly to fit screen
+W, H = 5600, 1000
+S = 4  # scale factor for line widths, radii, positions vs original 1400x250 design
 
-# Color palette
-DEEP_TEAL = (15, 45, 55)
-MOSS_GREEN = (40, 70, 45)
-WET_STONE = (55, 60, 65)
-CHARCOAL = (20, 25, 30)
-DARK_BG = (12, 18, 22)
+# Color palette — LIGHT MODE for e-ink Kindle
+# Light background, dark lines
+DEEP_TEAL = (220, 235, 240)
+MOSS_GREEN = (225, 238, 225)
+WET_STONE = (230, 230, 232)
+CHARCOAL = (240, 242, 244)
+DARK_BG = (245, 245, 243)
 
-# Accent / glow colors (with alpha for compositing)
-CHARTREUSE = (160, 220, 80)
-ALGAE_CYAN = (60, 180, 170)
-WARM_GOLD = (180, 150, 70)
-COPPER_AMBER = (170, 110, 60)
-PALE_LIME = (140, 200, 100)
-MINERAL_IVORY = (200, 195, 175)
-SOFT_BLUE = (70, 140, 160)
+# Accent / line colors — DARK for visibility on e-ink
+CHARTREUSE = (50, 80, 35)
+ALGAE_CYAN = (30, 80, 75)
+WARM_GOLD = (80, 65, 30)
+COPPER_AMBER = (90, 55, 25)
+PALE_LIME = (55, 85, 40)
+MINERAL_IVORY = (70, 70, 60)
+SOFT_BLUE = (35, 70, 85)
 
 # Chapter data: (number, title, primary_accent, symbol_type, symbol_params)
 # symbol_type: "roots", "circles", "waves", "dots", "ring", "lines", "grid", "spiral", "chevrons", "shatter"
@@ -102,103 +105,87 @@ def draw_roots(draw, glow_draw, w, h, color, params):
     aggressive = params.get("aggressive", False)
     displaced = params.get("displaced", False)
 
-    base_alpha = 180 if aggressive else 120
-    glow_color = (*color, base_alpha)
-
     for i in range(density):
-        x = random.randint(50, w - 50)
+        x = random.randint(50*S, w - 50*S)
         y_start = random.choice([0, h])
         segments = random.randint(4, 8)
         points = [(x, y_start)]
         for s in range(segments):
-            dx = random.randint(-60, 60)
+            dx = random.randint(-60*S, 60*S)
             dy = (h // segments) * (1 if y_start == 0 else -1)
             if displaced and i % 3 == 0:
                 dx *= 2
-            nx = max(20, min(w - 20, points[-1][0] + dx))
-            ny = max(20, min(h - 20, points[-1][1] + dy))
+            nx = max(20*S, min(w - 20*S, points[-1][0] + dx))
+            ny = max(20*S, min(h - 20*S, points[-1][1] + dy))
             points.append((nx, ny))
 
-        thickness = 3 if aggressive else 2
+        thickness = S * (5 if aggressive else 4)
+        alpha = 220 if aggressive else 180
         for j in range(len(points) - 1):
-            draw.line([points[j], points[j + 1]], fill=(*color, 60), width=thickness)
-            glow_draw.line([points[j], points[j + 1]], fill=glow_color, width=thickness + 4)
+            draw.line([points[j], points[j + 1]], fill=(*color, alpha), width=thickness)
 
-        # Branch points
         if len(points) > 3:
             bp = points[random.randint(1, len(points) - 2)]
             for _ in range(random.randint(1, 3)):
-                ex = bp[0] + random.randint(-40, 40)
-                ey = bp[1] + random.randint(-30, 30)
-                draw.line([bp, (ex, ey)], fill=(*color, 40), width=1)
-                glow_draw.line([bp, (ex, ey)], fill=(*color, 80), width=3)
+                ex = bp[0] + random.randint(-40*S, 40*S)
+                ey = bp[1] + random.randint(-30*S, 30*S)
+                draw.line([bp, (ex, ey)], fill=(*color, 140), width=S*2)
 
 
 def draw_circles(draw, glow_draw, w, h, color, params):
     """Concentric or scattered circles."""
     cx, cy = w // 2, h // 2
+    lw = S * 3  # base line width
 
     if params.get("pairs"):
-        # Paired circles
         n = params["pairs"]
         for i in range(n):
-            x = 200 + i * (w - 400) // (n - 1)
-            y = cy + random.randint(-30, 30)
-            r = random.randint(20, 35)
-            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 100), width=2)
-            glow_draw.ellipse([x - r - 5, y - r - 5, x + r + 5, y + r + 5], outline=(*color, 150), width=6)
-            # Connecting line to next
+            x = 200*S + i * (w - 400*S) // (n - 1)
+            y = cy + random.randint(-30*S, 30*S)
+            r = random.randint(20*S, 35*S)
+            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 180), width=lw)
             if i < n - 1:
-                x2 = 200 + (i + 1) * (w - 400) // (n - 1)
-                draw.line([(x + r, y), (x2 - r - 30, y)], fill=(*color, 40), width=1)
+                x2 = 200*S + (i + 1) * (w - 400*S) // (n - 1)
+                draw.line([(x + r, y), (x2 - r - 30*S, y)], fill=(*color, 100), width=S*2)
 
     elif params.get("dissolving"):
-        # Circle dissolving into fragments
-        for r in range(20, 120, 15):
-            alpha = max(20, 140 - r)
+        for r in range(20*S, 120*S, 15*S):
+            alpha = max(60, 200 - r // S)
             segments = 30
             for s in range(segments):
                 angle = 2 * math.pi * s / segments
-                if random.random() > 0.3:  # gaps in outer rings
+                if random.random() > 0.3:
                     a2 = angle + 2 * math.pi / segments * 0.7
                     x1 = cx + r * math.cos(angle)
                     y1 = cy + r * math.sin(angle)
                     x2 = cx + r * math.cos(a2)
                     y2 = cy + r * math.sin(a2)
-                    draw.line([(x1, y1), (x2, y2)], fill=(*color, alpha), width=2)
-                    glow_draw.line([(x1, y1), (x2, y2)], fill=(*color, alpha + 40), width=5)
+                    draw.line([(x1, y1), (x2, y2)], fill=(*color, alpha), width=lw)
 
     elif params.get("merging"):
-        # Multiple circles converging to center
         for i in range(12):
             angle = 2 * math.pi * i / 12
-            dist = 80 + random.randint(-20, 20)
+            dist = 80*S + random.randint(-20*S, 20*S)
             x = cx + dist * math.cos(angle)
             y = cy + dist * math.sin(angle)
-            r = random.randint(15, 30)
-            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 80), width=1)
-            glow_draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 120), width=4)
-        # Central bright point
-        glow_draw.ellipse([cx - 8, cy - 8, cx + 8, cy + 8], fill=(*color, 200))
+            r = random.randint(15*S, 30*S)
+            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 160), width=lw)
+        draw.ellipse([cx - 8*S, cy - 8*S, cx + 8*S, cy + 8*S], fill=(*color, 220))
 
     elif params.get("dim"):
-        # Dim scattered circles (night)
         for _ in range(8):
-            x = random.randint(100, w - 100)
-            y = random.randint(50, h - 50)
-            r = random.randint(15, 45)
-            alpha = random.randint(30, 70)
-            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, alpha), width=1)
-            glow_draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, alpha + 20), width=3)
+            x = random.randint(100*S, w - 100*S)
+            y = random.randint(50*S, h - 50*S)
+            r = random.randint(15*S, 45*S)
+            alpha = random.randint(80, 150)
+            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, alpha), width=lw)
 
     elif params.get("cost"):
-        # Circles with one broken
         for i in range(7):
-            x = 180 + i * (w - 360) // 6
+            x = 180*S + i * (w - 360*S) // 6
             y = cy
-            r = 25
-            if i == 3:  # broken one
-                # Draw partial circle
+            r = 25*S
+            if i == 3:
                 for angle_deg in range(0, 360, 15):
                     if 90 < angle_deg < 200:
                         continue
@@ -206,26 +193,21 @@ def draw_circles(draw, glow_draw, w, h, color, params):
                     a2 = math.radians(angle_deg + 12)
                     x1, y1 = x + r * math.cos(a), y + r * math.sin(a)
                     x2, y2 = x + r * math.cos(a2), y + r * math.sin(a2)
-                    draw.line([(x1, y1), (x2, y2)], fill=(*color, 100), width=2)
+                    draw.line([(x1, y1), (x2, y2)], fill=(*color, 180), width=lw)
             else:
-                draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 80), width=2)
-                glow_draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 100), width=4)
+                draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, 160), width=lw)
 
     elif params.get("five"):
-        # Five distinct circles at different heights
-        positions = [(250, cy - 40), (450, cy + 20), (650, cy - 10), (850, cy + 30), (1050, cy - 25)]
-        sizes = [30, 25, 28, 22, 35]
-        alphas = [140, 100, 120, 90, 60]
+        positions = [(250*S, cy - 40*S), (450*S, cy + 20*S), (650*S, cy - 10*S), (850*S, cy + 30*S), (1050*S, cy - 25*S)]
+        sizes = [30*S, 25*S, 28*S, 22*S, 35*S]
+        alphas = [200, 160, 180, 140, 120]
         for (x, y), r, a in zip(positions, sizes, alphas):
-            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, a), width=2)
-            glow_draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, a + 30), width=5)
+            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, a), width=lw)
 
     else:
-        # Simple concentric
-        for r in range(20, 100, 12):
-            alpha = max(30, 150 - r)
-            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(*color, alpha), width=1)
-            glow_draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(*color, alpha + 30), width=4)
+        for r in range(20*S, 100*S, 12*S):
+            alpha = max(60, 200 - r // S)
+            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(*color, alpha), width=lw)
 
 
 def draw_waves(draw, glow_draw, w, h, color, params):
@@ -235,20 +217,21 @@ def draw_waves(draw, glow_draw, w, h, color, params):
     vibration = params.get("vibration", False)
     displacement = params.get("displacement", False)
     final = params.get("final", False)
+    lw = S * 3
 
     for i in range(layers):
-        y_base = 60 + i * (h - 120) // max(layers - 1, 1)
-        alpha = max(30, 160 - i * 20)
-        freq = 0.008 if not vibration else 0.015 + i * 0.003
-        amp = 15 + i * 3 if not displacement else 25 + i * 5
+        y_base = 60*S + i * (h - 120*S) // max(layers - 1, 1)
+        alpha = max(80, 220 - i * 20)
+        freq = 0.008 / S if not vibration else (0.015 + i * 0.003) / S
+        amp = (15 + i * 3) * S if not displacement else (25 + i * 5) * S
 
         if mourning:
-            amp = max(5, amp - i * 4)  # waves flatten
-            alpha = max(20, alpha - i * 15)
+            amp = max(5*S, amp - i * 4*S)
+            alpha = max(60, alpha - i * 15)
 
         if final:
-            freq = 0.006
-            amp = 10 + i * 2  # gentle
+            freq = 0.006 / S
+            amp = (10 + i * 2) * S
 
         points = []
         for x in range(0, w, 3):
@@ -256,12 +239,11 @@ def draw_waves(draw, glow_draw, w, h, color, params):
             points.append((x, y))
 
         if len(points) > 1:
-            draw.line(points, fill=(*color, alpha), width=2)
-            glow_draw.line(points, fill=(*color, min(255, alpha + 50)), width=5)
+            draw.line(points, fill=(*color, alpha), width=lw)
 
 
 def draw_dots(draw, glow_draw, w, h, color, params):
-    """Scattered dot patterns (spores, memories, surveillance points)."""
+    """Scattered dot patterns."""
     count = params.get("count", 30)
     fading = params.get("fading", False)
     fungal = params.get("fungal", False)
@@ -269,165 +251,187 @@ def draw_dots(draw, glow_draw, w, h, color, params):
     watched = params.get("watched", False)
 
     for i in range(count):
-        x = random.randint(80, w - 80)
-        y = random.randint(40, h - 40)
-        r = random.randint(2, 6) if not fungal else random.randint(1, 8)
-
+        x = random.randint(80*S, w - 80*S)
+        y = random.randint(40*S, h - 40*S)
+        r = random.randint(2*S, 6*S) if not fungal else random.randint(1*S, 8*S)
         if sparse:
-            r = random.randint(1, 3)
+            r = random.randint(1*S, 3*S)
 
-        alpha = 180 - int(i / count * 150) if fading else random.randint(60, 180)
+        alpha = 220 - int(i / count * 150) if fading else random.randint(100, 220)
 
         if watched and i % 5 == 0:
-            # Larger "eye" dots
-            r = random.randint(5, 9)
-            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, alpha), width=1)
-            draw.ellipse([x - 2, y - 2, x + 2, y + 2], fill=(*color, alpha))
+            r = random.randint(5*S, 9*S)
+            draw.ellipse([x - r, y - r, x + r, y + r], outline=(*color, alpha), width=S*2)
+            draw.ellipse([x - 2*S, y - 2*S, x + 2*S, y + 2*S], fill=(*color, alpha))
         else:
             draw.ellipse([x - r, y - r, x + r, y + r], fill=(*color, alpha))
 
-        glow_draw.ellipse([x - r - 3, y - r - 3, x + r + 3, y + r + 3], fill=(*color, min(255, alpha)))
-
 
 def draw_ring(draw, glow_draw, w, h, color, params):
-    """Concentric rings (displacement platform, tightening)."""
+    """Concentric rings."""
     cx, cy = w // 2, h // 2
     rings = params.get("rings", 3)
     tightening = params.get("tightening", False)
+    lw = S * 3
 
     for i in range(rings):
-        r = 30 + i * 25 if not tightening else 30 + i * 15
-        alpha = max(40, 180 - i * 30)
-        width = 2 if not tightening else max(1, 3 - i)
-        draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(*color, alpha), width=width)
-        glow_draw.ellipse([cx - r - 3, cy - r - 3, cx + r + 3, cy + r + 3],
-                         outline=(*color, min(255, alpha + 40)), width=width + 4)
+        r = (30 + i * 25) * S if not tightening else (30 + i * 15) * S
+        alpha = max(80, 220 - i * 30)
+        draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(*color, alpha), width=lw)
 
-    # Central stones (small dots in a ring)
-    stone_r = 20
+    stone_r = 20 * S
     for i in range(6):
         angle = 2 * math.pi * i / 6
         sx = cx + stone_r * math.cos(angle)
         sy = cy + stone_r * math.sin(angle)
-        draw.ellipse([sx - 3, sy - 3, sx + 3, sy + 3], fill=(*color, 200))
-        glow_draw.ellipse([sx - 6, sy - 6, sx + 6, sy + 6], fill=(*color, 150))
+        draw.ellipse([sx - 3*S, sy - 3*S, sx + 3*S, sy + 3*S], fill=(*color, 220))
 
 
 def draw_lines(draw, glow_draw, w, h, color, params):
-    """Line patterns (power structures, cages, broken systems)."""
+    """Line patterns."""
     cx, cy = w // 2, h // 2
     radiating = params.get("radiating", False)
     broken = params.get("broken", False)
     cage = params.get("cage", False)
+    lw = S * 3
 
     if radiating:
         for i in range(16):
             angle = 2 * math.pi * i / 16
-            length = random.randint(60, 150)
+            length = random.randint(60*S, 150*S)
             x2 = cx + length * math.cos(angle)
             y2 = cy + length * math.sin(angle)
-            alpha = random.randint(60, 140)
-            draw.line([(cx, cy), (x2, y2)], fill=(*color, alpha), width=1)
-            glow_draw.line([(cx, cy), (x2, y2)], fill=(*color, min(255, alpha + 50)), width=4)
+            alpha = random.randint(120, 200)
+            draw.line([(cx, cy), (x2, y2)], fill=(*color, alpha), width=lw)
 
     elif broken:
-        # Parallel lines with breaks
         for i in range(9):
-            y = 50 + i * (h - 100) // 8
-            alpha = random.randint(60, 140)
-            # Draw with random gaps
-            x = 100
-            while x < w - 100:
-                seg_len = random.randint(30, 120)
-                gap = random.randint(10, 40)
-                draw.line([(x, y), (x + seg_len, y)], fill=(*color, alpha), width=1)
-                glow_draw.line([(x, y), (x + seg_len, y)], fill=(*color, min(255, alpha + 40)), width=3)
+            y = 50*S + i * (h - 100*S) // 8
+            alpha = random.randint(120, 200)
+            x = 100*S
+            while x < w - 100*S:
+                seg_len = random.randint(30*S, 120*S)
+                gap = random.randint(10*S, 40*S)
+                draw.line([(x, y), (x + seg_len, y)], fill=(*color, alpha), width=lw)
                 x += seg_len + gap
 
     elif cage:
-        # Vertical bars with horizontal connectors
         bar_count = 12
         for i in range(bar_count):
-            x = 200 + i * (w - 400) // (bar_count - 1)
-            alpha = 80 if i % 2 == 0 else 50
-            draw.line([(x, 40), (x, h - 40)], fill=(*color, alpha), width=1)
-            glow_draw.line([(x, 40), (x, h - 40)], fill=(*color, alpha + 30), width=3)
-
-        # Two horizontal bars
+            x = 200*S + i * (w - 400*S) // (bar_count - 1)
+            alpha = 160 if i % 2 == 0 else 100
+            draw.line([(x, 40*S), (x, h - 40*S)], fill=(*color, alpha), width=lw)
         for y in [h // 3, 2 * h // 3]:
-            draw.line([(200, y), (w - 200, y)], fill=(*color, 60), width=1)
-            glow_draw.line([(200, y), (w - 200, y)], fill=(*color, 90), width=3)
+            draw.line([(200*S, y), (w - 200*S, y)], fill=(*color, 120), width=lw)
 
 
 def draw_spiral(draw, glow_draw, w, h, color, params):
-    """Spiral pattern (mechanism, organic computation)."""
+    """Spiral pattern."""
     cx, cy = w // 2, h // 2
     turns = params.get("turns", 3)
+    lw = S * 3
 
     points = []
-    for t in range(0, 360 * turns, 3):
+    for t in range(0, 360 * turns, 2):
         angle = math.radians(t)
-        r = 10 + t * 0.12
+        r = 10*S + t * 0.12 * S
         x = cx + r * math.cos(angle)
         y = cy + r * math.sin(angle)
-        if 20 < x < w - 20 and 20 < y < h - 20:
+        if 20*S < x < w - 20*S and 20*S < y < h - 20*S:
             points.append((x, y))
 
     if len(points) > 1:
-        alpha = 120
-        draw.line(points, fill=(*color, alpha), width=2)
-        glow_draw.line(points, fill=(*color, min(255, alpha + 60)), width=6)
+        draw.line(points, fill=(*color, 180), width=lw)
 
 
 def draw_chevrons(draw, glow_draw, w, h, color, params):
-    """Opposing chevron patterns (conflict, debate)."""
+    """Opposing chevron patterns."""
     cx = w // 2
-    # Left-pointing chevrons
+    lw = S * 3
     for i in range(5):
-        x = cx - 80 - i * 50
-        y_top = h // 2 - 60
+        x = cx - 80*S - i * 50*S
+        y_top = h // 2 - 60*S
         y_mid = h // 2
-        y_bot = h // 2 + 60
-        alpha = max(40, 150 - i * 25)
-        draw.line([(x + 30, y_top), (x, y_mid), (x + 30, y_bot)], fill=(*color, alpha), width=2)
-        glow_draw.line([(x + 30, y_top), (x, y_mid), (x + 30, y_bot)], fill=(*color, min(255, alpha + 40)), width=5)
+        y_bot = h // 2 + 60*S
+        alpha = max(80, 200 - i * 25)
+        draw.line([(x + 30*S, y_top), (x, y_mid), (x + 30*S, y_bot)], fill=(*color, alpha), width=lw)
 
-    # Right-pointing chevrons (different shade)
     r2, g2, b2 = min(255, color[0] + 40), max(0, color[1] - 30), max(0, color[2] - 20)
     for i in range(5):
-        x = cx + 80 + i * 50
-        y_top = h // 2 - 60
+        x = cx + 80*S + i * 50*S
+        y_top = h // 2 - 60*S
         y_mid = h // 2
-        y_bot = h // 2 + 60
-        alpha = max(40, 150 - i * 25)
-        draw.line([(x - 30, y_top), (x, y_mid), (x - 30, y_bot)], fill=(r2, g2, b2, alpha), width=2)
-        glow_draw.line([(x - 30, y_top), (x, y_mid), (x - 30, y_bot)], fill=(r2, g2, b2, min(255, alpha + 40)), width=5)
+        y_bot = h // 2 + 60*S
+        alpha = max(80, 200 - i * 25)
+        draw.line([(x - 30*S, y_top), (x, y_mid), (x - 30*S, y_bot)], fill=(r2, g2, b2, alpha), width=lw)
+
+
+def draw_grid(draw, glow_draw, w, h, color, params):
+    """Grid pattern — distributed coordination nodes connected by faint lines."""
+    cols = params.get("cols", 5)
+    rows = 3
+    lw = S * 3
+    margin_x = 200 * S
+    margin_y = 80 * S
+
+    # Node positions
+    nodes = []
+    for row in range(rows):
+        for col in range(cols):
+            x = margin_x + col * (w - 2 * margin_x) // max(cols - 1, 1)
+            y = margin_y + row * (h - 2 * margin_y) // max(rows - 1, 1)
+            # Slight organic offset
+            x += random.randint(-15 * S, 15 * S)
+            y += random.randint(-10 * S, 10 * S)
+            nodes.append((x, y))
+
+    # Connection lines — horizontal and vertical neighbors
+    for row in range(rows):
+        for col in range(cols):
+            idx = row * cols + col
+            # Right neighbor
+            if col < cols - 1:
+                n_idx = row * cols + col + 1
+                alpha = random.randint(80, 130)
+                draw.line([nodes[idx], nodes[n_idx]], fill=(*color, alpha), width=S * 2)
+            # Below neighbor
+            if row < rows - 1:
+                n_idx = (row + 1) * cols + col
+                alpha = random.randint(80, 130)
+                draw.line([nodes[idx], nodes[n_idx]], fill=(*color, alpha), width=S * 2)
+
+    # Nodes themselves — small filled circles with outer ring
+    for x, y in nodes:
+        r_outer = random.randint(8 * S, 12 * S)
+        alpha = random.randint(140, 200)
+        draw.ellipse([x - r_outer, y - r_outer, x + r_outer, y + r_outer],
+                     outline=(*color, alpha), width=lw)
+        r_inner = 3 * S
+        draw.ellipse([x - r_inner, y - r_inner, x + r_inner, y + r_inner],
+                     fill=(*color, alpha))
 
 
 def draw_shatter(draw, glow_draw, w, h, color, params):
-    """Shattered/cracked pattern (breaking point)."""
+    """Shattered/cracked pattern."""
     cx, cy = w // 2, h // 2
+    lw = S * 3
 
-    # Central impact point
-    glow_draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(*color, 200))
+    draw.ellipse([cx - 5*S, cy - 5*S, cx + 5*S, cy + 5*S], fill=(*color, 230))
 
-    # Radiating cracks
     for i in range(12):
         angle = 2 * math.pi * i / 12 + random.uniform(-0.2, 0.2)
-        length = random.randint(60, 180)
         points = [(cx, cy)]
-        x, y = cx, cy
+        x, y = float(cx), float(cy)
         for seg in range(random.randint(3, 6)):
-            dx = random.randint(15, 40) * math.cos(angle + random.uniform(-0.3, 0.3))
-            dy = random.randint(15, 40) * math.sin(angle + random.uniform(-0.3, 0.3))
+            dx = random.randint(15*S, 40*S) * math.cos(angle + random.uniform(-0.3, 0.3))
+            dy = random.randint(15*S, 40*S) * math.sin(angle + random.uniform(-0.3, 0.3))
             x += dx
             y += dy
             points.append((x, y))
 
-        alpha = random.randint(80, 160)
+        alpha = random.randint(140, 220)
         if len(points) > 1:
-            draw.line(points, fill=(*color, alpha), width=1)
-            glow_draw.line(points, fill=(*color, min(255, alpha + 50)), width=4)
+            draw.line(points, fill=(*color, alpha), width=lw)
 
 
 SYMBOL_FUNCS = {
@@ -439,6 +443,7 @@ SYMBOL_FUNCS = {
     "lines": draw_lines,
     "spiral": draw_spiral,
     "chevrons": draw_chevrons,
+    "grid": draw_grid,
     "shatter": draw_shatter,
 }
 
@@ -507,42 +512,23 @@ def render_text(img, chapter_num, title, color):
 
 
 def generate_chapter_header(chapter_num, title, accent_color, symbol_type, symbol_params):
-    """Generate a single chapter header image."""
+    """Generate a single chapter header image at high resolution."""
     # Background gradient
     bg = make_gradient_bg(W, H, DARK_BG, CHARCOAL)
     img = bg.convert("RGBA")
 
-    # Symbol layer
+    # Symbol layer — draw directly, no glow blur (clean lines for e-ink)
     symbol_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     symbol_draw = ImageDraw.Draw(symbol_layer)
 
-    # Glow layer
-    glow_layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    glow_draw = ImageDraw.Draw(glow_layer)
-
-    # Draw the abstract symbol
+    # Pass symbol_draw as both draw and glow_draw — the "glow" lines
+    # become thicker accent lines at high res instead of blurred halos
     func = SYMBOL_FUNCS.get(symbol_type)
     if func:
-        func(symbol_draw, glow_draw, W, H, accent_color, symbol_params)
+        func(symbol_draw, symbol_draw, W, H, accent_color, symbol_params)
 
-    # Blur the glow layer
-    glow_blurred = glow_layer.filter(ImageFilter.GaussianBlur(radius=12))
-
-    # Composite: bg + glow + symbols
-    img = Image.alpha_composite(img, glow_blurred)
+    # Composite
     img = Image.alpha_composite(img, symbol_layer)
-
-    # Add subtle noise texture
-    noise = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    noise_draw = ImageDraw.Draw(noise)
-    for _ in range(3000):
-        x = random.randint(0, W - 1)
-        y = random.randint(0, H - 1)
-        a = random.randint(3, 12)
-        noise_draw.point((x, y), fill=(255, 255, 255, a))
-    img = Image.alpha_composite(img, noise)
-
-    # No text — EPUB handles chapter titles in markup
 
     return img
 
@@ -562,13 +548,13 @@ def main():
     div = Image.new("RGBA", (400, 40), (0, 0, 0, 0))
     div_draw = ImageDraw.Draw(div)
     cx, cy = 200, 20
-    # Three small dots
+    # Three small dots (dark for e-ink)
     for dx in [-20, 0, 20]:
         div_draw.ellipse([cx + dx - 3, cy - 3, cx + dx + 3, cy + 3],
-                        fill=(60, 180, 170, 120))
+                        fill=(80, 80, 80, 180))
     # Thin lines
-    div_draw.line([(40, cy), (cx - 35, cy)], fill=(60, 180, 170, 60), width=1)
-    div_draw.line([(cx + 35, cy), (360, cy)], fill=(60, 180, 170, 60), width=1)
+    div_draw.line([(40, cy), (cx - 35, cy)], fill=(80, 80, 80, 100), width=1)
+    div_draw.line([(cx + 35, cy), (360, cy)], fill=(80, 80, 80, 100), width=1)
     div.save(os.path.join(OUT_DIR, "section_divider.png"), "PNG")
     print("  section_divider.png")
 

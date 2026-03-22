@@ -11,7 +11,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MANUSCRIPT = PROJECT_ROOT / "output" / "manuscript.md"
 IMAGE_DIR = PROJECT_ROOT / "ImageAssets"
 HEADER_DIR = IMAGE_DIR / "chapter_headers"
-COVER_IMAGE = IMAGE_DIR / "Book_Cover.png"
+COVER_IMAGE = IMAGE_DIR / "Book_Cover_Light.png"
 
 DEFAULT_TITLE = "The City Beneath the Root"
 DEFAULT_AUTHOR = "Claude Code & Pedro Saldanha"
@@ -32,13 +32,6 @@ body {
     background-color: transparent;
 }
 
-/* Navigation / TOC: left-aligned, no justify */
-nav ol, nav ul {
-    text-align: left !important;
-}
-nav li, nav a, nav p {
-    text-align: left !important;
-}
 
 h1.chapter-title {
     font-size: 1.4em;
@@ -260,9 +253,28 @@ def build_epub(title, author, chapters, output_path):
 
     # TOC and spine
     book.toc = epub_chapters
-    book.spine = ["nav"] + epub_chapters
     book.add_item(epub.EpubNcx())
-    book.add_item(epub.EpubNav())
+
+    # Custom nav page with its own CSS to prevent justify spacing on TOC
+    nav_css = epub.EpubItem(
+        uid="nav_style",
+        file_name="style/nav.css",
+        media_type="text/css",
+        content=b"""
+body { font-family: Georgia, serif; margin: 1em; color: #000; }
+h1 { font-size: 1.3em; margin-bottom: 1em; }
+ol { list-style-type: none; padding-left: 0; }
+li { margin-bottom: 0.5em; text-align: left; }
+a { text-decoration: none; color: #333; }
+"""
+    )
+    book.add_item(nav_css)
+
+    nav_page = epub.EpubNav()
+    nav_page.add_item(nav_css)
+    book.add_item(nav_page)
+
+    book.spine = ["nav"] + epub_chapters
 
     # Write
     output_path.parent.mkdir(parents=True, exist_ok=True)
